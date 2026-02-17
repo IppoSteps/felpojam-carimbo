@@ -1,0 +1,26 @@
+{
+	"1" : {
+		"personagem" : "teste",
+		"texto" : "Isso aqui é um teste, por favor ignorar."
+	},
+	"2" : {
+		"personagem" : "teste",
+		"texto" : "Apenas um teste, sem conteúdo por enquanto"
+	},
+	"3" : {
+		"personagem" : "teste",
+		"texto" : "Sério, não tem nada aqui, você ta perdendo seu tempo"
+	},
+	"4" : {
+		"personagem" : "teste",
+		"texto" : "Quantas vezes eu vou ter que dizer que não tem nada aqui? Segue sua vida."
+	},
+	"5" : {
+		"personagem" : "teste",
+		"texto" : "Ta, fica aí então, mas depois não diz que não te avisei"
+	},
+	"6" : {
+		"personagem" : "teste",
+		"texto" : "..."
+	}
+}

@@ -1,10 +1,98 @@
 [gd_scene format=3 uid="uid://bx8ofswrssal0"]
 
+[ext_resource type="Texture2D" uid="uid://b0l2veqvx2" path="res://Imagens/test-silluetes.png" id="1_dfn0s"]
+[ext_resource type="Script" uid="uid://bq8e1tr1t0hfy" path="res://Scripts/cena_1.gd" id="1_owwqi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_owwqi"]
+atlas = ExtResource("1_dfn0s")
+region = Rect2(91.71069, 67.1568, 381.38293, 344.62317)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g1fjc"]
+atlas = ExtResource("1_dfn0s")
+region = Rect2(536.04663, 67.50098, 340.0282, 326.24326)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dfn0s"]
+atlas = ExtResource("1_dfn0s")
+region = Rect2(1105.8236, 118.045715, 101.089355, 238.93869)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1kfv5"]
+atlas = ExtResource("1_dfn0s")
+region = Rect2(1458.0126, 115.12375, 120.78833, 259.2922)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ln4ob"]
+atlas = ExtResource("1_dfn0s")
+region = Rect2(1076.9697, 114.72984, 147.62012, 135.52005)
+
+[sub_resource type="LabelSettings" id="LabelSettings_owwqi"]
+font_size = 34
+
+[sub_resource type="LabelSettings" id="LabelSettings_g1fjc"]
+
 [node name="Cena1" type="Node2D" unique_id=813643253]
+script = ExtResource("1_owwqi")
 
 [node name="Label" type="Label" parent="." unique_id=602791982]
-offset_left = 350.0
-offset_top = 310.0
-offset_right = 926.0
-offset_bottom = 508.0
+offset_left = 396.0
+offset_top = 32.0
+offset_right = 810.0
+offset_bottom = 62.0
 text = "ESSA É A CENA 1 IMAGINA O JOGO AQUI MTO FODA"
+
+[node name="Golfinho" type="TextureButton" parent="." unique_id=538214893]
+offset_left = 61.0
+offset_top = 269.0
+offset_right = 442.0
+offset_bottom = 613.0
+texture_normal = SubResource("AtlasTexture_owwqi")
+texture_hover = SubResource("AtlasTexture_g1fjc")
+
+[node name="Pinguim" type="TextureButton" parent="." unique_id=123554154]
+offset_left = 898.0
+offset_top = 297.0
+offset_right = 999.0
+offset_bottom = 535.0
+texture_normal = SubResource("AtlasTexture_dfn0s")
+texture_hover = SubResource("AtlasTexture_1kfv5")
+
+[node name="CaixaDialogo" type="Panel" parent="." unique_id=407232681]
+visible = false
+offset_left = 161.0
+offset_top = 453.0
+offset_right = 1013.0
+offset_bottom = 609.0
+
+[node name="TextureRect" type="TextureRect" parent="CaixaDialogo" unique_id=1630858273]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -231.0
+offset_top = -212.0
+offset_right = -84.0
+offset_bottom = -77.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = SubResource("AtlasTexture_ln4ob")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CaixaDialogo" unique_id=100181476]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="NomePersonagem" type="Label" parent="CaixaDialogo/VBoxContainer" unique_id=1855587647]
+layout_mode = 2
+text = "Nome"
+label_settings = SubResource("LabelSettings_owwqi")
+
+[node name="Texto" type="Label" parent="CaixaDialogo/VBoxContainer" unique_id=1844581623]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Placeholder"
+label_settings = SubResource("LabelSettings_g1fjc")
+
+[connection signal="pressed" from="Pinguim" to="." method="_on_pinguim_pressed"]

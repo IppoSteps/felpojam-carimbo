@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://bp04rk6w2g6ee"]
+
+[ext_resource type="Script" uid="uid://cq4vdoghq5727" path="res://Scripts/creditos.gd" id="1_5vcb0"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_g4s2e"]
+font_size = 60
+
+[node name="Creditos" type="Control" unique_id=639358692]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5vcb0")
+
+[node name="Titulo" type="Label" parent="." unique_id=991805586]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "Créditos"
+label_settings = SubResource("LabelSettings_g4s2e")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Menu" type="Button" parent="." unique_id=917056784]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 27.0
+offset_right = 71.0
+offset_bottom = 58.0
+text = "<"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=342322826]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 33.21
+offset_top = -25.0
+offset_right = 324.21
+offset_bottom = 25.0
+grow_vertical = 2
+
+[node name="Equipe" type="Label" parent="VBoxContainer" unique_id=2095712437]
+layout_mode = 2
+text = "EQUIPE BOBOLANDIA"
+
+[node name="Steps" type="LinkButton" parent="VBoxContainer" unique_id=413466482]
+layout_mode = 2
+text = "Steps - Programador / Game Designer"
+underline = 2
+uri = "https://letterboxd.com/marditoPassos/"
+
+[node name="Coudi" type="LinkButton" parent="VBoxContainer" unique_id=2087051791]
+layout_mode = 2
+text = "Coudicino - Musicista / Sonoplasta"
+underline = 2
+uri = "https://soundcloud.com/user-827713480"
+
+[node name="Dante" type="LinkButton" parent="VBoxContainer" unique_id=698044623]
+layout_mode = 2
+text = "Dante - Artista"
+underline = 2
+uri = "https://woof-di.carrd.co/"
+
+[node name="Sra Raposa" type="LinkButton" parent="VBoxContainer" unique_id=983909977]
+layout_mode = 2
+text = "Sra. Raposa - Artista"
+underline = 2
+uri = "https://letterboxd.com/marditoPassos/"
+
+[connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bx8ofswrssal0"]
+
+[node name="Cena1" type="Node2D" unique_id=813643253]
+
+[node name="Label" type="Label" parent="." unique_id=602791982]
+offset_left = 350.0
+offset_top = 310.0
+offset_right = 926.0
+offset_bottom = 508.0
+text = "ESSA É A CENA 1 IMAGINA O JOGO AQUI MTO FODA"

@@ -1,26 +1,38 @@
 {
-	"1" : {
-		"personagem" : "teste",
+	"pinguim": {
+		"1" : {
+		"personagem" : "Pinguim",
 		"texto" : "Isso aqui é um teste, por favor ignorar."
+		},
+		"2" : {
+			"personagem" : "Pinguim",
+			"texto" : "Apenas um teste, sem conteúdo por enquanto"
+		},
+		"3" : {
+			"personagem" : "Pinguim",
+			"texto" : "Sério, não tem nada aqui, você ta perdendo seu tempo"
+		},
+		"4" : {
+			"personagem" : "Pinguim",
+			"texto" : "Quantas vezes eu vou ter que dizer que não tem nada aqui? Segue sua vida."
+		},
+		"5" : {
+			"personagem" : "Pinguim",
+			"texto" : "Ta, fica aí então, mas depois não diz que não te avisei"
+		},
+		"6" : {
+			"personagem" : "Pinguim",
+			"texto" : "..."
+		}
 	},
-	"2" : {
-		"personagem" : "teste",
-		"texto" : "Apenas um teste, sem conteúdo por enquanto"
-	},
-	"3" : {
-		"personagem" : "teste",
-		"texto" : "Sério, não tem nada aqui, você ta perdendo seu tempo"
-	},
-	"4" : {
-		"personagem" : "teste",
-		"texto" : "Quantas vezes eu vou ter que dizer que não tem nada aqui? Segue sua vida."
-	},
-	"5" : {
-		"personagem" : "teste",
-		"texto" : "Ta, fica aí então, mas depois não diz que não te avisei"
-	},
-	"6" : {
-		"personagem" : "teste",
-		"texto" : "..."
+	"golfinho" : {
+		"1" : {
+			"personagem" : "Golfinho",
+			"texto" : "Como o amigo ali falou, isso aqui é um teste"
+		},
+		"2" : {
+			"personagem" : "Golfinho",
+			"texto" : "Não vou nem perder meu tempo."
+		}
 	}
 }

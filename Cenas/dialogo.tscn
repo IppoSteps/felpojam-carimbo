@@ -1,18 +1,13 @@
 [gd_scene format=3 uid="uid://bbgw7tmu2cxgo"]
 
 [ext_resource type="Script" uid="uid://bg1xkui308j4p" path="res://Scripts/dialogo.gd" id="1_d7n07"]
-[ext_resource type="Texture2D" uid="uid://b0l2veqvx2" path="res://Imagens/test-silluetes.png" id="2_w74h6"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_8abie"]
-atlas = ExtResource("2_w74h6")
-region = Rect2(1076.9697, 114.72984, 147.62012, 135.52005)
 
 [sub_resource type="LabelSettings" id="LabelSettings_oogsg"]
 font_size = 34
 
 [sub_resource type="LabelSettings" id="LabelSettings_8wa24"]
 
-[node name="Dialogo" type="Control" unique_id=1920572738 node_paths=PackedStringArray("nome", "texto_caixa", "caixa_dialogo")]
+[node name="Dialogo" type="Control" unique_id=1920572738 node_paths=PackedStringArray("nome", "texto_caixa", "caixa_dialogo", "imagem_portrait")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -23,6 +18,7 @@ script = ExtResource("1_d7n07")
 nome = NodePath("CaixaDialogo/VBoxContainer/NomePersonagem")
 texto_caixa = NodePath("CaixaDialogo/VBoxContainer/Texto")
 caixa_dialogo = NodePath("CaixaDialogo")
+imagem_portrait = NodePath("CaixaDialogo/TextureRect")
 
 [node name="CaixaDialogo" type="Panel" parent="." unique_id=1701485403]
 visible = false
@@ -45,7 +41,6 @@ offset_right = -84.0
 offset_bottom = -77.0
 grow_horizontal = 0
 grow_vertical = 2
-texture = SubResource("AtlasTexture_8abie")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CaixaDialogo" unique_id=967511506]
 layout_mode = 1

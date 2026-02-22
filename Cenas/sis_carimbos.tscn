@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://bndy3sr6of7pe"]
+
+[ext_resource type="Script" uid="uid://d8wrwidygw5b" path="res://Scripts/sis_carimbos.gd" id="1_dqpuo"]
+[ext_resource type="Texture2D" uid="uid://cmy3gb648jqt2" path="res://Imagens/caderno.png" id="2_vbgcf"]
+
+[node name="sis_carimbos" type="Control" unique_id=232167546 node_paths=PackedStringArray("caderno", "carimbo_1", "carimbo_2")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dqpuo")
+caderno = NodePath("Caderno")
+carimbo_1 = NodePath("Caderno/Carimbo1")
+carimbo_2 = NodePath("Caderno/Carimbo2")
+
+[node name="Caderno" type="TextureRect" parent="." unique_id=1520523681]
+visible = false
+layout_mode = 0
+offset_left = -450.0
+offset_top = -155.0
+offset_right = 540.0
+offset_bottom = 835.0
+texture = ExtResource("2_vbgcf")
+
+[node name="Carimbo1" type="TextureRect" parent="Caderno" unique_id=638720077 groups=["carimbo_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 542.0
+offset_top = 265.0
+offset_right = 642.0
+offset_bottom = 365.0
+
+[node name="Carimbo2" type="TextureRect" parent="Caderno" unique_id=70236135 groups=["carimbo_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 693.0
+offset_top = 239.0
+offset_right = 793.0
+offset_bottom = 339.0

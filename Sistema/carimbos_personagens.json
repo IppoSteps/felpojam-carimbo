@@ -1,10 +1,10 @@
 {
 	"pinguim" : {
 		"path" : "res://Imagens/carimbos/carimbo1.png",
-		"slot" :  ""
+		"slot" :  "nenhum"
 		},
 	"golfinho" : {
 		"path" : "res://Imagens/carimbos/carimbo2.png",
-		"slot" :  ""
+		"slot" :  "nenhum"
 		},
 }

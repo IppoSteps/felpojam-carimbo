@@ -1,4 +1,5 @@
 {
-	"pinguim" : "res://Imagens/portraits/pinguim_portrait.png",
-	"golfinho" : "res://Imagens/portraits/golfinho_portrait.png"
+	"mordomo" : "res://Imagens/sprites/Mordomo_pata.png",
+	"vovo" : "res://Imagens/sprites/Vovó_neutro.png",
+	"mano" : "res://Imagens/portraits/mano.jpg"
 }

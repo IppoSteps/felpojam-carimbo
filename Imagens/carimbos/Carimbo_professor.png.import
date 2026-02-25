@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0l2veqvx2"
-path="res://.godot/imported/test-silluetes.png-3534904ebf6dd3a10798989a9d9dd1a1.ctex"
+uid="uid://diqafb426mjfs"
+path="res://.godot/imported/Carimbo_professor.png-8b87a722b4ecb8207b78f35ad4e3a518.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens/test-silluetes.png"
-dest_files=["res://.godot/imported/test-silluetes.png-3534904ebf6dd3a10798989a9d9dd1a1.ctex"]
+source_file="res://Imagens/carimbos/Carimbo_professor.png"
+dest_files=["res://.godot/imported/Carimbo_professor.png-8b87a722b4ecb8207b78f35ad4e3a518.ctex"]
 
 [params]
 

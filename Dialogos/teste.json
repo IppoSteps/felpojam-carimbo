@@ -1,38 +1,44 @@
 {
-	"pinguim": {
+	"mordomo": {
 		"1" : {
-		"personagem" : "Pinguim",
+		"personagem" : "Mordomo",
 		"texto" : "Isso aqui é um teste, por favor ignorar."
 		},
 		"2" : {
-			"personagem" : "Pinguim",
+			"personagem" : "Mordomo",
 			"texto" : "Apenas um teste, sem conteúdo por enquanto"
 		},
 		"3" : {
-			"personagem" : "Pinguim",
+			"personagem" : "Mordomo",
 			"texto" : "Sério, não tem nada aqui, você ta perdendo seu tempo"
 		},
 		"4" : {
-			"personagem" : "Pinguim",
+			"personagem" : "Mordomo",
 			"texto" : "Quantas vezes eu vou ter que dizer que não tem nada aqui? Segue sua vida."
 		},
 		"5" : {
-			"personagem" : "Pinguim",
+			"personagem" : "Mordomo",
 			"texto" : "Ta, fica aí então, mas depois não diz que não te avisei"
 		},
 		"6" : {
-			"personagem" : "Pinguim",
+			"personagem" : "Mordomo",
 			"texto" : "..."
 		}
 	},
-	"golfinho" : {
+	"vovo" : {
 		"1" : {
-			"personagem" : "Golfinho",
+			"personagem" : "Vovó",
 			"texto" : "Como o amigo ali falou, isso aqui é um teste"
 		},
 		"2" : {
-			"personagem" : "Golfinho",
+			"personagem" : "Vovó",
 			"texto" : "Não vou nem perder meu tempo."
+		}
+	},
+	"mano" : {
+		"1" : {
+			"personagem" : "Mano",
+			"texto" : "Salve"
 		}
 	}
 }

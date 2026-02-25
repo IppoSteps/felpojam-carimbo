@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmc4klwwenjxk"
-path="res://.godot/imported/carimbo1.png-6d07c9b320bae89f26169ff2ce00b37f.ctex"
+uid="uid://y3k6sar6ttvy"
+path="res://.godot/imported/Escritório.png-ff29345a0ffb788155157e61b016fc34.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens/carimbos/carimbo1.png"
-dest_files=["res://.godot/imported/carimbo1.png-6d07c9b320bae89f26169ff2ce00b37f.ctex"]
+source_file="res://Imagens/cenarios/Escritório.png"
+dest_files=["res://.godot/imported/Escritório.png-ff29345a0ffb788155157e61b016fc34.ctex"]
 
 [params]
 

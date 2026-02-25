@@ -5,6 +5,8 @@ signal click(event)
 @export var caderno: TextureRect
 @export var carimbo_1: TextureRect
 @export var carimbo_2: TextureRect
+@export var carimbo_3: TextureRect
+@export var carimbo_4: TextureRect
 
 var carimbos_path := "res://Sistema/carimbos_personagens.json"
 var carimbos_json := {}

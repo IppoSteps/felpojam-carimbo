@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlyhkp6nw02pu"
-path="res://.godot/imported/pinguim_portrait.png-eaaa1ca275c8140e4bc597d06518a120.ctex"
+uid="uid://fdss5tdd55k3"
+path="res://.godot/imported/Carimbo_ermoes.png-b1060112d5344e57a46076aa7d881126.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens/portraits/pinguim_portrait.png"
-dest_files=["res://.godot/imported/pinguim_portrait.png-eaaa1ca275c8140e4bc597d06518a120.ctex"]
+source_file="res://Imagens/carimbos/Carimbo_ermoes.png"
+dest_files=["res://.godot/imported/Carimbo_ermoes.png-b1060112d5344e57a46076aa7d881126.ctex"]
 
 [params]
 

@@ -33,3 +33,7 @@ func _on_golfinho_pressed() -> void:
 	for b in botoes:
 		b.disabled = false
 	golfinho.visible = true
+
+
+func _on_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://Cenas/cena_2.tscn")

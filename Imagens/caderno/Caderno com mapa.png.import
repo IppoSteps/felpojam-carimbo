@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbrxn8x8hiu4f"
-path="res://.godot/imported/golfinho_portrait.png-e03f0110127040022e771742f5c94fc0.ctex"
+uid="uid://wwne05t20v1y"
+path="res://.godot/imported/Caderno com mapa.png-836c62a01902669c15de68966a8f9bd9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens/portraits/golfinho_portrait.png"
-dest_files=["res://.godot/imported/golfinho_portrait.png-e03f0110127040022e771742f5c94fc0.ctex"]
+source_file="res://Imagens/caderno/Caderno com mapa.png"
+dest_files=["res://.godot/imported/Caderno com mapa.png-836c62a01902669c15de68966a8f9bd9.ctex"]
 
 [params]
 

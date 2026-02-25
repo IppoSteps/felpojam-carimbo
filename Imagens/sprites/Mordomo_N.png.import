@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmy3gb648jqt2"
-path="res://.godot/imported/caderno.png-f9c3d2e6d6264655a7e9a69abddf3c45.ctex"
+uid="uid://brxshtplpcapv"
+path="res://.godot/imported/Mordomo_N.png-1e4047bc770f8cef1611fbc336b96908.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens/caderno.png"
-dest_files=["res://.godot/imported/caderno.png-f9c3d2e6d6264655a7e9a69abddf3c45.ctex"]
+source_file="res://Imagens/sprites/Mordomo_N.png"
+dest_files=["res://.godot/imported/Mordomo_N.png-1e4047bc770f8cef1611fbc336b96908.ctex"]
 
 [params]
 

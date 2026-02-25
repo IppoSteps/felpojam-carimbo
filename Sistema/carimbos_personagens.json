@@ -1,10 +1,34 @@
 {
-	"pinguim" : {
-		"path" : "res://Imagens/carimbos/carimbo1.png",
+	"carimbador" : {
+		"path" : "res://Imagens/carimbos/Carimbo_carimbador.png",
 		"slot" :  "nenhum"
-		},
-	"golfinho" : {
-		"path" : "res://Imagens/carimbos/carimbo2.png",
+	},
+	"ermoes" : {
+		"path" : "res://Imagens/carimbos/Carimbo_ermoes.png",
 		"slot" :  "nenhum"
-		},
+	},
+	"maquinista" : {
+		"path" : "res://Imagens/carimbos/Carimbo_maquinista.png",
+		"slot" : "nenhum"
+	},
+	"mordomo" : {
+		"path" : "res://Imagens/carimbos/Carimbo_mordomo.png",
+		"slot" : "nenhum"
+	},
+	"miau" : {
+		"path" : "res://Imagens/carimbos/Carimbo_pata.png",
+		"slot" : "nenhum"
+	},
+	"pirata" : {
+		"path" : "res://Imagens/carimbos/Carimbo_pirata.png",
+		"slot" : "nenhum"
+	},
+	"pombo" : {
+		"path" : "res://Imagens/carimbos/Carimbo_pombo.png",
+		"slot" : "nenhum"
+	},
+	"vovo" : {
+		"path" : "res://Imagens/carimbos/Carimbo_professor.png",
+		"slot" : "nenhum"
+	}
 }

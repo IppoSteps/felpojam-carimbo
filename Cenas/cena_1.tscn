@@ -55,5 +55,13 @@ texture_hover = SubResource("AtlasTexture_1kfv5")
 
 [node name="Dialogo" parent="." unique_id=1920572738 instance=ExtResource("3_g1fjc")]
 
+[node name="Button" type="Button" parent="." unique_id=1441390808]
+offset_left = 541.0
+offset_top = 472.0
+offset_right = 684.0
+offset_bottom = 503.0
+text = "CENA 2"
+
 [connection signal="pressed" from="Golfinho" to="." method="_on_golfinho_pressed"]
 [connection signal="pressed" from="Pinguim" to="." method="_on_pinguim_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

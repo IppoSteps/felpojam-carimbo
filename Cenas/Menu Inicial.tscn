@@ -17,10 +17,10 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 69.99
-offset_top = -186.405
-offset_right = 163.99008
-offset_bottom = -50.40381
+offset_left = 70.0
+offset_top = -163.0
+offset_right = 164.00009
+offset_bottom = -26.99878
 grow_vertical = 0
 
 [node name="BotaoIniciar" type="Button" parent="VBoxContainer" unique_id=1396761849]
@@ -30,10 +30,6 @@ text = "Iniciar Jogo"
 [node name="BotaoCreditos" type="Button" parent="VBoxContainer" unique_id=1604184418]
 layout_mode = 2
 text = "Créditos"
-
-[node name="BotaoConfig" type="Button" parent="VBoxContainer" unique_id=1035138541]
-layout_mode = 2
-text = "Opções"
 
 [node name="BotaoSair" type="Button" parent="VBoxContainer" unique_id=1331413752]
 layout_mode = 2
@@ -45,5 +41,4 @@ autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/BotaoIniciar" to="." method="_on_botao_iniciar_pressed"]
 [connection signal="pressed" from="VBoxContainer/BotaoCreditos" to="." method="_on_botao_creditos_pressed"]
-[connection signal="pressed" from="VBoxContainer/BotaoConfig" to="." method="_on_botao_config_pressed"]
 [connection signal="pressed" from="VBoxContainer/BotaoSair" to="." method="_on_botao_sair_pressed"]

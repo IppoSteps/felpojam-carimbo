@@ -55,17 +55,17 @@ text = "EQUIPE BOBOLANDIA"
 layout_mode = 2
 text = "Steps - Programador / Game Designer"
 underline = 2
-uri = "https://letterboxd.com/marditoPassos/"
+uri = "https://github.com/IppoSteps"
 
 [node name="Coudi" type="LinkButton" parent="VBoxContainer" unique_id=2087051791]
 layout_mode = 2
-text = "Coudicino - Musicista / Sonoplasta"
+text = "Coudicino - Musicista / Sonoplasta/ Roteirista"
 underline = 2
 uri = "https://soundcloud.com/user-827713480"
 
 [node name="Dante" type="LinkButton" parent="VBoxContainer" unique_id=698044623]
 layout_mode = 2
-text = "Dante - Artista"
+text = "Dante (woofdi) - Diretor de arte / Artista"
 underline = 2
 uri = "https://woof-di.carrd.co/"
 
@@ -73,6 +73,5 @@ uri = "https://woof-di.carrd.co/"
 layout_mode = 2
 text = "Sra. Raposa - Artista"
 underline = 2
-uri = "https://letterboxd.com/marditoPassos/"
 
 [connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

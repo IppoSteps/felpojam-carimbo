@@ -30,18 +30,18 @@ offset_bottom = 40.0
 
 [node name="sis_carimbos" parent="Control" unique_id=232167546 instance=ExtResource("3_de2pe")]
 layout_mode = 1
-offset_right = 1114.0
-offset_bottom = 608.0
-
-[node name="SisMapa" parent="Control" unique_id=257959995 instance=ExtResource("4_cepwc")]
-layout_mode = 1
-offset_right = 1118.0
-offset_bottom = 606.0
+offset_right = 1117.0
+offset_bottom = 612.0
 
 [node name="Dialogo" parent="Control" unique_id=1920572738 instance=ExtResource("2_fqgwy")]
 layout_mode = 1
 offset_right = 1119.0
 offset_bottom = 610.0
+
+[node name="SisMapa" parent="Control" unique_id=257959995 instance=ExtResource("4_cepwc")]
+layout_mode = 1
+offset_right = 1118.0
+offset_bottom = 606.0
 
 [node name="Professor" type="TextureButton" parent="." unique_id=991273655 groups=["botoes"]]
 offset_left = 513.0

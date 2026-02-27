@@ -3,7 +3,19 @@
 [ext_resource type="Script" uid="uid://d8wrwidygw5b" path="res://Scripts/sis_carimbos.gd" id="1_dqpuo"]
 [ext_resource type="Texture2D" uid="uid://bomqui2b0wyih" path="res://Imagens/caderno/Caderno base.png" id="2_gg4wj"]
 
-[node name="sis_carimbos" type="Control" unique_id=232167546 node_paths=PackedStringArray("caderno", "carimbo_1", "carimbo_2", "carimbo_3", "carimbo_4")]
+[sub_resource type="LabelSettings" id="LabelSettings_gg4wj"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_dqpuo"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_vbgcf"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_o1a3f"]
+font_color = Color(0, 0, 0, 1)
+
+[node name="sis_carimbos" type="Control" unique_id=232167546 node_paths=PackedStringArray("caderno")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -12,10 +24,6 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_dqpuo")
 caderno = NodePath("Caderno")
-carimbo_1 = NodePath("Caderno/Carimbo1")
-carimbo_2 = NodePath("Caderno/Carimbo2")
-carimbo_3 = NodePath("Caderno/Carimbo3")
-carimbo_4 = NodePath("Caderno/Carimbo4")
 
 [node name="Caderno" type="TextureRect" parent="." unique_id=836063119]
 visible = false
@@ -38,6 +46,17 @@ offset_right = 676.0
 offset_bottom = 209.0
 expand_mode = 1
 
+[node name="Texto1" type="Label" parent="Caderno" unique_id=2104257325 groups=["texto_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 680.0
+offset_top = 109.0
+offset_right = 920.0
+offset_bottom = 209.0
+label_settings = SubResource("LabelSettings_gg4wj")
+vertical_alignment = 1
+autowrap_mode = 2
+
 [node name="Carimbo2" type="TextureRect" parent="Caderno" unique_id=18694310 groups=["carimbo_slots"]]
 visible = false
 layout_mode = 0
@@ -46,6 +65,17 @@ offset_top = 235.0
 offset_right = 675.0
 offset_bottom = 335.0
 expand_mode = 1
+
+[node name="Texto2" type="Label" parent="Caderno" unique_id=1374642855 groups=["texto_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 681.0
+offset_top = 235.0
+offset_right = 921.0
+offset_bottom = 335.0
+label_settings = SubResource("LabelSettings_dqpuo")
+vertical_alignment = 1
+autowrap_mode = 2
 
 [node name="Carimbo3" type="TextureRect" parent="Caderno" unique_id=500079703 groups=["carimbo_slots"]]
 visible = false
@@ -56,6 +86,17 @@ offset_right = 683.0
 offset_bottom = 419.0
 expand_mode = 1
 
+[node name="Texto3" type="Label" parent="Caderno" unique_id=1321727262 groups=["texto_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 680.0
+offset_top = 319.0
+offset_right = 920.0
+offset_bottom = 419.0
+label_settings = SubResource("LabelSettings_vbgcf")
+vertical_alignment = 1
+autowrap_mode = 2
+
 [node name="Carimbo4" type="TextureRect" parent="Caderno" unique_id=718411931 groups=["carimbo_slots"]]
 visible = false
 layout_mode = 0
@@ -64,3 +105,14 @@ offset_top = 445.0
 offset_right = 682.0
 offset_bottom = 545.0
 expand_mode = 1
+
+[node name="Texto4" type="Label" parent="Caderno" unique_id=1114200741 groups=["texto_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 680.0
+offset_top = 445.0
+offset_right = 920.0
+offset_bottom = 545.0
+label_settings = SubResource("LabelSettings_o1a3f")
+vertical_alignment = 1
+autowrap_mode = 2

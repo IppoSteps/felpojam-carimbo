@@ -7,6 +7,9 @@ extends Node2D
 
 @export var professor: TextureButton
 
+func _ready():
+	carimbo.aplica_estado()
+
 var mapa_aberto = false
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -51,3 +54,4 @@ func _on_carimbador_pressed() -> void:
 	for b in botoes:
 		b.visible = true
 		b.disabled = false
+		

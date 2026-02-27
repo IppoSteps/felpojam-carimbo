@@ -15,6 +15,10 @@ run/main_scene="uid://cc7cgdienbn6n"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="uid://dtigtq3ay25tw"
 
+[autoload]
+
+Save="*uid://dhkk4q1g5o08m"
+
 [input]
 
 abre_mapa={

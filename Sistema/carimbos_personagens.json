@@ -1,34 +1,42 @@
 {
 	"carimbador" : {
 		"path" : "res://Imagens/carimbos/Carimbo_carimbador.png",
+		"texto" : "Ele é estranho... Mas me deu a CHAVE DO QUARTO",
 		"slot" :  "nenhum"
 	},
 	"ermoes" : {
 		"path" : "res://Imagens/carimbos/Carimbo_ermoes.png",
+		"texto" : "",
 		"slot" :  "nenhum"
 	},
 	"maquinista" : {
 		"path" : "res://Imagens/carimbos/Carimbo_maquinista.png",
+		"texto" : "",
 		"slot" : "nenhum"
 	},
 	"mordomo" : {
 		"path" : "res://Imagens/carimbos/Carimbo_mordomo.png",
+		"texto" : "",
 		"slot" : "nenhum"
 	},
 	"miau" : {
 		"path" : "res://Imagens/carimbos/Carimbo_pata.png",
+		"texto" : "",
 		"slot" : "nenhum"
 	},
 	"pirata" : {
 		"path" : "res://Imagens/carimbos/Carimbo_pirata.png",
+		"texto" : "",
 		"slot" : "nenhum"
 	},
 	"pombo" : {
 		"path" : "res://Imagens/carimbos/Carimbo_pombo.png",
+		"texto" : "",
 		"slot" : "nenhum"
 	},
 	"professor" : {
 		"path" : "res://Imagens/carimbos/Carimbo_professor.png",
+		"texto" : "Apenas um Carimbo Comum",
 		"slot" : "nenhum"
 	}
 }

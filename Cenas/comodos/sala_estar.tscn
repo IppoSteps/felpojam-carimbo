@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://f2i3sqe4cqei"]
+
+[ext_resource type="Script" uid="uid://3atiswjarffn" path="res://Scripts/sala_estar.gd" id="1_6s2al"]
+[ext_resource type="PackedScene" uid="uid://brigm5hyw1tkh" path="res://Cenas/sis_mapa.tscn" id="1_xtttp"]
+
+[node name="SalaEstar" type="Node2D" unique_id=1230411227 node_paths=PackedStringArray("mapa")]
+script = ExtResource("1_6s2al")
+mapa = NodePath("Control/SisMapa")
+
+[node name="Label" type="Label" parent="." unique_id=326851532]
+offset_left = 526.0
+offset_top = 307.0
+offset_right = 642.0
+offset_bottom = 330.0
+text = "SALA DE ESTAR"
+
+[node name="Control" type="Control" parent="." unique_id=497942762]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1153.0
+offset_bottom = 648.0
+
+[node name="SisMapa" parent="Control" unique_id=257959995 instance=ExtResource("1_xtttp")]
+layout_mode = 1

@@ -1,26 +1,26 @@
 [gd_scene format=3 uid="uid://7gjmy6d0qdqx"]
 
-[ext_resource type="PackedScene" uid="uid://bbgw7tmu2cxgo" path="res://Cenas/dialogo.tscn" id="1_4uk6u"]
-[ext_resource type="Texture2D" uid="uid://y3k6sar6ttvy" path="res://Imagens/cenarios/Escritório.png" id="1_upko5"]
-[ext_resource type="Script" uid="uid://cf5t6me6xwx1h" path="res://Scripts/teste.gd" id="1_vxhr3"]
-[ext_resource type="PackedScene" uid="uid://bndy3sr6of7pe" path="res://Cenas/sis_carimbos.tscn" id="2_32exs"]
-[ext_resource type="Texture2D" uid="uid://b20ucjg2jsgxg" path="res://Imagens/sprites/Mordomo_neutro.png" id="4_vxhr3"]
-[ext_resource type="Texture2D" uid="uid://cun1k6wvfre33" path="res://Imagens/sprites/Vovó_feliz.png" id="6_5cqpl"]
+[ext_resource type="Script" uid="uid://cf5t6me6xwx1h" path="res://Scripts/teste.gd" id="1_1nq6b"]
+[ext_resource type="Texture2D" uid="uid://y3k6sar6ttvy" path="res://Imagens/cenarios/Escritório.png" id="2_kib8y"]
+[ext_resource type="PackedScene" uid="uid://bbgw7tmu2cxgo" path="res://Cenas/dialogo.tscn" id="3_e44ki"]
+[ext_resource type="PackedScene" uid="uid://bndy3sr6of7pe" path="res://Cenas/sis_carimbos.tscn" id="4_10hxd"]
+[ext_resource type="PackedScene" uid="uid://brigm5hyw1tkh" path="res://Cenas/sis_mapa.tscn" id="5_1tv0m"]
+[ext_resource type="Texture2D" uid="uid://b20ucjg2jsgxg" path="res://Imagens/sprites/Mordomo_neutro.png" id="6_p7fut"]
+[ext_resource type="Texture2D" uid="uid://cun1k6wvfre33" path="res://Imagens/sprites/Vovó_feliz.png" id="7_bv2fq"]
 
-[node name="Teste" type="Node2D" unique_id=94817120 node_paths=PackedStringArray("dialogo", "carimbo", "mordomo")]
-script = ExtResource("1_vxhr3")
-dialogo = NodePath("Dialogo")
+[node name="Teste" type="Node2D" unique_id=94817120 node_paths=PackedStringArray("dialogo", "carimbo", "mapa", "mordomo")]
+script = ExtResource("1_1nq6b")
+dialogo = NodePath("Control/Dialogo")
 carimbo = NodePath("Control/sis_carimbos")
+mapa = NodePath("Control/SisMapa")
 mordomo = NodePath("Mordomo")
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1201976217]
+[node name="Escritório" type="TextureRect" parent="." unique_id=1201976217]
 offset_right = 1157.0
 offset_bottom = 1157.0
-texture = ExtResource("1_upko5")
+texture = ExtResource("2_kib8y")
 expand_mode = 1
 stretch_mode = 4
-
-[node name="Dialogo" parent="." unique_id=1920572738 instance=ExtResource("1_4uk6u")]
 
 [node name="Control" type="Control" parent="." unique_id=2087517797]
 layout_mode = 3
@@ -28,17 +28,25 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="sis_carimbos" parent="Control" unique_id=232167546 instance=ExtResource("2_32exs")]
+[node name="Dialogo" parent="Control" unique_id=1920572738 instance=ExtResource("3_e44ki")]
+layout_mode = 1
+
+[node name="sis_carimbos" parent="Control" unique_id=232167546 instance=ExtResource("4_10hxd")]
 layout_mode = 1
 offset_right = 1114.0
 offset_bottom = 608.0
+
+[node name="SisMapa" parent="Control" unique_id=257959995 instance=ExtResource("5_1tv0m")]
+layout_mode = 1
+offset_right = 1118.0
+offset_bottom = 606.0
 
 [node name="Mordomo" type="TextureButton" parent="." unique_id=821866146 groups=["botoes"]]
 offset_left = 167.0
 offset_top = 231.0
 offset_right = 288.0
 offset_bottom = 454.45337
-texture_normal = ExtResource("4_vxhr3")
+texture_normal = ExtResource("6_p7fut")
 ignore_texture_size = true
 stretch_mode = 5
 flip_h = true
@@ -48,7 +56,7 @@ offset_left = 541.0
 offset_top = 220.0
 offset_right = 624.0
 offset_bottom = 332.16217
-texture_normal = ExtResource("6_5cqpl")
+texture_normal = ExtResource("7_bv2fq")
 ignore_texture_size = true
 stretch_mode = 5
 

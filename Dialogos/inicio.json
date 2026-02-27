@@ -1,0 +1,126 @@
+{
+	"???" : {
+		"1" : {
+		"personagem" : "???",
+		"texto" : "Essa é a história da tragédia presente hoje...",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"2" : {
+		"personagem" : "???",
+		"texto" : "Era uma vez a maior carimbeira do mundo, ela possuía um poder de carimbação imenso...",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"3" : {
+		"personagem" : "???",
+		"texto" : "Diz a lenda que em seu reino nenhuma carta passou descarimbada e nenhum papel continuou por muito tempo sem um selo.",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"4" : {
+		"personagem" : "???",
+		"texto" : "Vovó Catarina era seu nome completo.",
+		"fundo" : "res://Imagens/sprites/Vovó_neutro.png",
+		"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"5" : {
+		"personagem" : "???",
+		"texto" : "Não só ela era a MELHOR rainha dos carimbos, como ela também era amada por toda a sua família...",
+		"fundo" : "res://Imagens/sprites/Vovó_feliz.png",
+		"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"6" : {
+		"personagem" : "???",
+		"texto" : "É por isso que é inacreditável... você vê... a Vovó Catarina, mesmo em seu ápice carimbatorial, acabou sendo ASSASSINADA!!!",
+		"fundo" : "res://Imagens/fundos/Cena inicial censurado.png",
+		"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"7" : {
+		"personagem" : "???",
+		"texto" : "A polícia encontrou-a... ENVENENADA!!!!! Muito provavelmente misturado com o seu chá de camomila da tarde...",
+		"fundo" : "res://Imagens/fundos/Cena_inicial_morte_2.png",
+		"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"8" : {
+		"personagem" : "???",
+		"texto" : "E o pior ainda não foi dito: apenas sua família, sua maior fonte de apoio nesses tempos sombrios, possuía acesso ao estoque de chá que ela utilizava...",
+		"fundo" : "res://Imagens/fundos/Cena_inicial_morte_2.png",
+		"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"9" : {
+		"personagem" : "???",
+		"texto" : "O motivo? A Vovó ainda estava decidindo de qual de seus herdeiros iria usufruir de seu maior bem: O CARIMBO DE OURO!!!!!!! (UAAAU)",
+		"fundo" : "res://Imagens/fundos/Cena inicial carimbo.png",
+		"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"10" : {
+		"personagem" : "???",
+		"texto" : "Pois então, cabe à VOCÊ, Inspetor Miau, descobrir quem foi o criminoso que faria ato tão comeditoso...",
+		"fundo" : "res://Imagens/sprites/Sr_Miau_neutro.png",
+		"sprite" : "res://Imagens/sprites/transparente.png"
+		}
+	},
+	"mordomo" : {
+		"1" : {
+		"personagem" : "Mordomo",
+		"texto" : "E é isso que tenho pra te passar...",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/Mordomo_neutro.png"
+		},
+		"2" : {
+		"personagem" : "Mordomo",
+		"texto" : "O funeral da Vovó acabou de terminar, então todos se encontram dentro da mansão principal",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/Mordomo_neutro.png"
+		},
+		"3" : {
+		"personagem" : "Mordomo",
+		"texto" : "S-sniff... oh! Desculpe, estou meio emotivo... sentirei tanto falta dela!!",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/Mordomo_neutro.png"
+		},
+		"4" : {
+		"personagem" : "Mordomo",
+		"texto" : "P-por favor, entre na mansão e colete o máximo de informação que conseguir dos herdeiros, localizações no momento do crime e possíveis motivos...",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/Mordomo_neutro.png"
+		},
+		"5" : {
+		"personagem" : "Mordomo",
+		"texto" : "Precisaremos de quaisquer migalhas que temos para apontar o dedo na cara desse traidor!!!!",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/Mordomo_neutro.png"
+		},
+		"6" : {
+		"personagem" : "Mordomo",
+		"texto" : "Ou traidora!!!",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/Mordomo_neutro.png"
+		},
+		"7" : {
+		"personagem" : "Mordomo",
+		"texto" : "Eu recomendo que você comece pela sala de estar que estamos, acho que você encontrará seus primeiros suspeitos por aqui.",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/Mordomo_neutro.png"
+		},
+		"8" : {
+		"personagem" : "Mordomo",
+		"texto" : "Saiba que o segundo andar está, convenientemente, em obras há algum tempo, então não acho que você encontrará quaisquer tipo de provas substanciais por lá. (hahaha)",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/Mordomo_neutro.png"
+		},
+		"9" : {
+		"personagem" : "Mordomo",
+		"texto" : "Qualquer dica ou informação que precise, eu estarei aqui a seu dispor.",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/Mordomo_neutro.png"
+		},
+		"10" : {
+		"personagem" : "Mordomo",
+		"texto" : "Agora, vá! Você só tem aproximadamente 25 minutos. Por favor, vá, e seja rápido!!",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/Mordomo_neutro.png"
+		},
+	}
+}

@@ -6,6 +6,7 @@ signal click(event)
 @export var texto_caixa = Label
 @export var caixa_dialogo = Panel
 @export var imagem_portrait = TextureRect
+@export var fundo = TextureRect
 
 var portrait_json = "res://Sistema/dialogo_portraits.json"
 
@@ -22,17 +23,20 @@ func _input(event: InputEvent) -> void:
 	if event is InputEventMouseButton:
 		click.emit(event)
 
+
 func muda_display(json, personagem):
 	var dialogos = extrai_json(json)
 	var dialogo_personagem = dialogos[personagem]
-	var portrait = extrai_json(portrait_json)
 	
-	imagem_portrait.texture = load(portrait[personagem])
+	imagem_portrait.visible = true
 	caixa_dialogo.visible = true
 	
 	for d in dialogo_personagem:
 		muda_texto(nome,dialogo_personagem[d]["personagem"])
 		muda_texto(texto_caixa,dialogo_personagem[d]["texto"])
+		fundo.texture = load(dialogo_personagem[d]["fundo"])
+		imagem_portrait.texture = load(dialogo_personagem[d]["sprite"])
 		await get_tree().create_timer(0.3).timeout
 		await click
 	caixa_dialogo.visible = false
+	imagem_portrait.visible = false

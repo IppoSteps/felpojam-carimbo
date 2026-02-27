@@ -3,7 +3,6 @@
 [ext_resource type="PackedScene" uid="uid://bbgw7tmu2cxgo" path="res://Cenas/dialogo.tscn" id="1_hlq42"]
 [ext_resource type="Script" uid="uid://dtnvc7q60sbxe" path="res://Scripts/cena_2.gd" id="1_i307b"]
 [ext_resource type="PackedScene" uid="uid://bndy3sr6of7pe" path="res://Cenas/sis_carimbos.tscn" id="2_edv7h"]
-[ext_resource type="Texture2D" uid="uid://cacipevbuss7g" path="res://Imagens/istockphoto-1300502656-612x612.jpg" id="3_edv7h"]
 
 [node name="Cena2" type="Node2D" unique_id=483184613 node_paths=PackedStringArray("dialogo", "carimbo", "mano")]
 script = ExtResource("1_i307b")
@@ -20,6 +19,5 @@ offset_left = 681.0
 offset_top = 18.0
 offset_right = 1293.0
 offset_bottom = 630.0
-texture_normal = ExtResource("3_edv7h")
 
 [connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

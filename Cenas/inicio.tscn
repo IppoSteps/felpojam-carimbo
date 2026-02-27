@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cav7psffovr88"]
+
+[ext_resource type="PackedScene" uid="uid://bbgw7tmu2cxgo" path="res://Cenas/dialogo.tscn" id="1_0ujk8"]
+[ext_resource type="Script" uid="uid://bbnnmjmataw8h" path="res://Scripts/inicio.gd" id="1_pef1i"]
+
+[node name="Inicio" type="Node2D" unique_id=1464875064 node_paths=PackedStringArray("dialogo")]
+script = ExtResource("1_pef1i")
+dialogo = NodePath("Control/Dialogo")
+
+[node name="Control" type="Control" parent="." unique_id=902507845]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1153.0
+offset_bottom = 649.0
+
+[node name="Dialogo" parent="Control" unique_id=1920572738 instance=ExtResource("1_0ujk8")]
+layout_mode = 1

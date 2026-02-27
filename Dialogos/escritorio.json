@@ -1,0 +1,180 @@
+{
+	"professor" : {
+		"1" : {
+			"personagem" : "Professor",
+			"texto" : "Eu achei este carimbo completamente normal. Eu acho que é o carimbo mais normal que já encontrei na minha vida. Não tenho nada além disso para te dar, então é o que você irá receber. Tome.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/lobao_neutro.png"
+		}
+	},
+	"carimbador" : {
+		"1" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "AAAAAAAAAAAAAHHHHHHHHHH!!!!!!!!!!",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"2" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : "???",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"3" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : " U-um gato… ahahahhahaah… que susto",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"4" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "...",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"5" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Você teria encontrado algum carimbo p-por aí?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"6" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "E-eu preciso muito carimbar algo, qualquer coisa!! EU VOU CARIMBAR VOCÊ!!! ",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"7" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : ":(",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"8" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "E-eu sou o Carimbador Noturno!! O neto preferido da Vovó e o melhor vigilante dessa cidade!! Meu trabalho é sair por aí e carimbar as coisas, e eu sou muito bom nisso!! Desde que eu entrei em trabalho mais nenhum crime foi cometido (até agora).",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"9" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Só que quando eu entrei pro velório dela eu percebi que estava sem meu famigerado Carimbatron-3000, que é O MELHOR CARIMBO DO MUNDO E MINHA ARMA PRINCIPAL.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"10" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Desde então eu NÃO ACHO ELA EM LUGAR ALGUM!! Ai minha nossa, ai minha nossa, eu preciso dele, senão eu vou ficar muito nervoso…… estava até considerando sair por aí usando o Carimbo de Ouro pra carimbar tudo mas…",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"11" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "*ahem*",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"12" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Ele não mim aguentô (tava muito pesado…)",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"13" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : "...?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"14" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Onde eu estava no horário do crime?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"15" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Em casa com minha mami tomando leite com chocolate. Eu amo ter 11 anos, minha vida é tipo de um rei. Não preciso trabalhar, nem ajudar nada em casa, até porque eu já faço o meu trabalho diário de vigia e carimbar tudo o que eu posso no parquinho enquanto eu brinco no balanço.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"16" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Não fala pra ninguém que eu vou pro balanço, isso é coisa de criança. E eu não sou criança.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"17" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Além disso, também tava cansado porque passei o dia carimbando o que eu conseguia no parque. Tudo que tem a marca do meu Carimbotron-300 recebe segurança eterna. Foi o que a Vovó me falou!! Ela me deu esse carimbo e esse trabalho porque queria que eu passasse menos tempo no tablet… Mas eu ainda uso enquanto ela não tá vendo.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"18" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : "...?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png"
+		},
+		"19" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "O que eu vi??",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"20" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Quem tá perguntando?? Você é da Polícia?? Então não vou responder sem meu advogado!!! ",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"21" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "…e-eu esqueci de contratar um… ",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"22" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Ahh, tudo bem, eu te falo, você é bonitinho então não deve ser do mal. Enquanto eu tava procurando o meu carimbo pra ajudar a proteger a casa da Vovó enquanto ela estiver descansando, eu encontrei isso aqui na Sala de Jantar. É uma chave que acho que é pro quarto… sei lá…",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"23" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Tava um pouco escondido mas nenhum item vai ficar fora do meu ALCANCE!!!!! CARIMBADOR NOTURNO ATIVAR!!!!!!!!!",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"24" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Eu tentei abrir o quarto, mas a maçaneta é muito alta pra eu alcançar… Finalmente, um inimigo páreo pro CARIMBADOR NOTURNO!!!!!! ",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"25" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Ah, você queria a chave? Bom, eu até te daria ela, mas negócios são negócios… eu estou ficando acostumado já com essa chave… talvez eu a leve pra casa e de algum nome pra e AÍ MEU DEUS O MEU CARIMBATRON-3000",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"26" : {
+			"personagem" : "",
+			"texto" : "*Você entrega o Carimbatron-3000*",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"27" : {
+			"personagem" : "Carimbador Noturno",
+			"texto" : "Pode ficar com tudo o que eu tenho.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+		"28" : {
+			"personagem" : "",
+			"texto" : "*Você recebe a CHAVE DO QUARTO DA VOVÓ*",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Carimbador_neutro.png"
+		},
+	}
+}

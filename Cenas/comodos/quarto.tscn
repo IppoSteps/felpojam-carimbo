@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://co20ity6df3os"]
+
+[ext_resource type="Script" uid="uid://cxkafocwrn7ep" path="res://Scripts/quarto.gd" id="1_wynpe"]
+[ext_resource type="PackedScene" uid="uid://brigm5hyw1tkh" path="res://Cenas/sis_mapa.tscn" id="2_3u53u"]
+
+[node name="Quarto" type="Node2D" unique_id=656631019 node_paths=PackedStringArray("mapa")]
+script = ExtResource("1_wynpe")
+mapa = NodePath("Control/SisMapa")
+
+[node name="Label" type="Label" parent="." unique_id=1085216875]
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_left = 569.0
+offset_top = 341.0
+offset_right = 625.0
+offset_bottom = 364.0
+grow_vertical = 2
+text = "Quarto"
+
+[node name="Control" type="Control" parent="." unique_id=443117731]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1153.0
+offset_bottom = 651.0
+
+[node name="SisMapa" parent="Control" unique_id=257959995 instance=ExtResource("2_3u53u")]
+layout_mode = 1

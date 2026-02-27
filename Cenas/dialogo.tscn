@@ -7,7 +7,7 @@ font_size = 34
 
 [sub_resource type="LabelSettings" id="LabelSettings_8wa24"]
 
-[node name="Dialogo" type="Control" unique_id=1920572738 node_paths=PackedStringArray("nome", "texto_caixa", "caixa_dialogo", "imagem_portrait")]
+[node name="Dialogo" type="Control" unique_id=1920572738 node_paths=PackedStringArray("nome", "texto_caixa", "caixa_dialogo", "imagem_portrait", "fundo")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -15,50 +15,69 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_d7n07")
-nome = NodePath("CaixaDialogo/VBoxContainer/NomePersonagem")
-texto_caixa = NodePath("CaixaDialogo/VBoxContainer/Texto")
+nome = NodePath("CaixaDialogo/NomePersonagem")
+texto_caixa = NodePath("CaixaDialogo/Texto")
 caixa_dialogo = NodePath("CaixaDialogo")
-imagem_portrait = NodePath("CaixaDialogo/TextureRect")
+imagem_portrait = NodePath("TextureRect")
+fundo = NodePath("Fundo")
 
-[node name="CaixaDialogo" type="Panel" parent="." unique_id=1701485403]
-visible = false
-layout_mode = 0
-offset_left = 161.0
-offset_top = 453.0
-offset_right = 1013.0
-offset_bottom = 609.0
-
-[node name="TextureRect" type="TextureRect" parent="CaixaDialogo" unique_id=1522700510]
+[node name="Fundo" type="TextureRect" parent="." unique_id=1195120738]
 layout_mode = 1
 anchors_preset = 6
 anchor_left = 1.0
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
-offset_left = -279.0
-offset_top = -225.0
-offset_right = 93.400024
-offset_bottom = 117.0
+offset_left = -1152.0
+offset_top = -323.0
+offset_right = -2.0
+offset_bottom = 324.0
 grow_horizontal = 0
 grow_vertical = 2
 expand_mode = 1
 stretch_mode = 5
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CaixaDialogo" unique_id=967511506]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="CaixaDialogo" type="Panel" parent="." unique_id=1701485403]
+visible = false
+clip_contents = true
+layout_mode = 0
+offset_left = 161.0
+offset_top = 453.0
+offset_right = 1013.0
+offset_bottom = 609.0
 
-[node name="NomePersonagem" type="Label" parent="CaixaDialogo/VBoxContainer" unique_id=405945300]
-layout_mode = 2
+[node name="NomePersonagem" type="Label" parent="CaixaDialogo" unique_id=405945300]
+layout_mode = 0
+offset_left = 32.0
+offset_right = 852.0
+offset_bottom = 47.0
 text = "Nome"
 label_settings = SubResource("LabelSettings_oogsg")
 
-[node name="Texto" type="Label" parent="CaixaDialogo/VBoxContainer" unique_id=834983475]
-layout_mode = 2
+[node name="Texto" type="Label" parent="CaixaDialogo" unique_id=834983475]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 50.0
+offset_right = 720.0
+offset_bottom = 141.0
 size_flags_horizontal = 0
 text = "Placeholder"
 label_settings = SubResource("LabelSettings_8wa24")
+autowrap_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1522700510]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -377.0
+offset_top = -20.0
+offset_right = -4.5999756
+offset_bottom = 322.0
+grow_horizontal = 0
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5

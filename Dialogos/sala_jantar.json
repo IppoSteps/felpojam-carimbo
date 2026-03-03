@@ -1,0 +1,552 @@
+{
+	"ermoes" : {
+		"1" : {
+			"personagem" : "Ermões",
+			"texto" : "Ermões & CIA, como podemos lhe ajudar? A maior empresa deste país que vivemos atualmente.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		},
+		"2" : {
+			"personagem" : "Erminho",
+			"texto" : "Ah sim! O Inspetor! Belas vestimentas, meu caro. Vejo que são de marca, hmm. Sim, ótimo gosto.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"3" : {
+			"personagem" : "Ermão",
+			"texto" : "…bem trajado.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"4" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : "...?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som" : "nenhum"
+		},
+		"5" : {
+			"personagem" : "Ermão",
+			"texto" : "Quem somos nós? Oras, boa piada hahahahah! Claro, somos os Ermões, Erminho e Ermão ao seu dispor!",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		},
+		"6" : {
+			"personagem" : "Erminho",
+			"texto" : "Nós estamos no ramo de vendas e de mercado de ações há aproximadamente 7 meses! Já podemos dizer que somos experts nisso.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"7" : {
+			"personagem" : "Ermão",
+			"texto" : "Caso você queira saber a extensa lista de nossos produtos, você pode verificá-los em nossas redes sociais.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"8" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : "...?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som" : "nenhum"
+		},
+		"9" : {
+			"personagem" : "Erminho",
+			"texto" : "Onde estávamos? É claro que…",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"10" : {
+			"personagem" : "Erminho",
+			"texto" : "Comprando ações.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		},
+		"11" : {
+			"personagem" : "Ermão",
+			"texto" : "Descansando em casa.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		},
+		"12" : {
+			"personagem" : "Ermões",
+			"texto" : "...",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"13" : {
+			"personagem" : "Ermão",
+			"texto" : "Comprando ações.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		},
+		"14" : {
+			"personagem" : "Erminho",
+			"texto" : "Ok. Se você prometer não contar a ninguém, nós te falamos. Promete? Ok.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"15" : {
+			"personagem" : "Erminho",
+			"texto" : "Nós estamos um pouco falidos. Sabe, nosso último produto foi uma certa falha, quem diria que vender direitos exclusivos de imagens na internet não daria futuro.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"16" : {
+			"personagem" : "Ermão",
+			"texto" : "Eu te avisei.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		},
+		"17" : {
+			"personagem" : "Erminho",
+			"texto" : "Ahem! Enfim, agora estamos sem ideias e sem apoio emocional, geralmente a Vovó era quem nos ajudava nesses períodos PASSAGEIROS de crise.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"18" : {
+			"personagem" : "Ermão",
+			"texto" : "Passam, mas voltam, né?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"19" : {
+			"personagem" : "Erminho",
+			"texto" : "Enfim! Agora, você não pode prender a gente. Como estamos em todos os lugares juntos, sempre temos álibis compatíveis. Isso é tipo uma trapaça da vida. Somos incríveis.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"20" : {
+			"personagem" : "Ermão",
+			"texto" : "Incríveis.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		},
+		"21" : {
+			"personagem" : "Erminho",
+			"texto" : "Nós estamos esperando o testamento da Vovó sair para, além de chorar muito com as nossas lágrimas, também possamos pegar logo o Carimbo de Ouro e vender ele. Foi ideia minha!",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"22" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : "...?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som" : "nenhum"
+		},
+		"23" : {
+			"personagem" : "Erminho",
+			"texto" : "Pessoalmente, não vimos nada. Mas estamos sempre dispostos a fazer negociações. O que você tem?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		},
+		"24" : {
+			"personagem" : "Erminho",
+			"texto" : "Um queijo de plástico? Hmmmm…",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"25" : {
+			"personagem" : "Erminho",
+			"texto" : "Hmmmm…",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"26" : {
+			"personagem" : "Ermão",
+			"texto" : "Interessante.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"27" : {
+			"personagem" : "Erminho",
+			"texto" : "Certamente interessante… Ele parece queijo… mas não é! A quebra de expectativa no fato de não ser comestível é fascinante… e lucrável! Ok, chamou nossa atenção! Por quanto você quer?.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"28" : {
+			"personagem" : "Ermão",
+			"texto" : "Pagamos o dobro!!!",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		},
+		"29" : {
+			"personagem" : "",
+			"texto" : "*Você deu o Queijo de Plástico*",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"30" : {
+			"personagem" : "Erminho",
+			"texto" : "D-de graça? Isso não está certo… nada nessa vida é de graça!! Tirando as imagens da internet…",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"31" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : "...",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Sr_Miau_realista.png",
+			"som" : "nenhum"
+		},
+		"32" : {
+			"personagem" : "Erminho",
+			"texto" : "Vejo que você entende das coisas.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		},
+		"33" : {
+			"personagem" : "Erminho",
+			"texto" : "Quer saber? Aqui! Pra você, isso aqui vai te impor respeito. Caso não te interesse, você pode sempre entregar a alguém.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"34" : {
+			"personagem" : "",
+			"texto" : "*Você recebeu um Cartão de Empresa em Branco*",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"35" : {
+			"personagem" : "Erminho",
+			"texto" : "Leve este objeto junto contigo, e seja na vida ou na morte, todos saberão do seu poder.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"36" : {
+			"personagem" : "Ermão",
+			"texto" : "Só um pouco menos do que se você tivesse o Carimbo de Ouro…",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "nenhum"
+		},
+		"37" : {
+			"personagem" : "Erminho",
+			"texto" : "Deixe-nos colocar a marca de nosso contrato em seu caderno. Ermão!!!!!!!",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Ermoes_neutro.png",
+			"som" : "res://Sounds/voz_ermoes_1.mp3"
+		}
+	},
+	"pombo": {
+		"1": {
+			"personagem": "Pombo",
+			"texto": "Ei. Olá. Você morreu? Não? Ok… só por via das dúvidas.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+			"som": "res://Sounds/voz_pombo_2.mp3"
+		},
+		"2": {
+			"personagem": "Pombo",
+			"texto": "Que foi? Só to perguntando…",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+			"som": "nenhum"
+		},
+		"3": {
+			"personagem": "Inspetor Miau",
+			"texto": "...?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som": "nenhum"
+		},
+		"4": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Eu sou o Pombo Correio da Morte. Oficialmente, sou um dos responsáveis por levar as almas recém falecidas para o outro lado. Consegui esse trabalho recentemente.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+			"som": "res://Sounds/voz_pombo_2.mp3"
+		},
+		"5": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Por ser tão recente, preciso manter sempre o maior cuidado que posso, qualquer alma que reencarne prematuramente pode ser um problemão pra mim…",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+			"som": "nenhum"
+		},
+		"6": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "O que estou fazendo aqui? Bom, apesar da aparência, eu sou um dos netos da Vovó, ela, inclusive, foi a pessoa que conseguiu esse trabalho pra mim.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+			"som": "nenhum"
+		},
+		"7": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Sim, ela possuía contatos com o pessoal lá de cima. Eu nunca entendi como.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+			"som": "nenhum"
+		},
+		"8": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Ah… desculpe, ando um pouco nervoso. Sabe, além da natureza sensível de meu trabalho, apoio emocional pra aqueles que ainda não se acostumaram com a morte e blablabla",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+			"som": "nenhum"
+		},
+		"9": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Eu também sinto que não sou respeitado o suficiente no meu trabalho, sabe?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+			"som": "res://Sounds/voz_pombo_2.mp3"
+		},
+		"10": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Veja bem, eu amo meu trabalho, mas quando você pensa em um ceifador e guia pro Outro Lado, você não necessariamente pensa em...",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+			"som": "nenhum"
+		},
+		"11": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "um Pombo, pensa?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"12": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Você certamente pensou em um CORVO, não foi?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"13": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Uuugh… por que eu fui perguntar? Todo mundo pensa em um Corvo…",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "res://Sounds/voz_pombo_2.mp3"
+		},
+		"14": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Ninguém me respeita o suficiente pra passar pro Outro Lado porque eu sou um pombo, cara…",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"15": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Talvez, se eu tivesse o Carimbo de Ouro, eu iria impor mais respeito, pelo menos, na hora de carimbar pra ver quem vai reencarnar ou não. Papelada difícil.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"16": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Sempre é “Ahh, você tem certeza que é por aqui?” “Nossa, mas posso falar com o seu gerente?” MEU GERENTE É UMA PESSOA MUITO OCUPADA, MOÇA.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"17": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Enfim, perdão, onde estávamos?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "res://Sounds/voz_pombo_2.mp3"
+		},
+		"18": {
+			"personagem": "Inspetor Miau",
+			"texto": "...?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som": "nenhum"
+		},
+		"19": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Onde eu estava na noite do crime? Trabalhando.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "res://Sounds/voz_pombo_2.mp3"
+		},
+		"20": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "O quê? Por que eu não levei a Vovó pro outro lado? Que pergunta é essa?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"21": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Primeiro que eu não posso levar familiares, é que nem seu filho ser seu psicólogo.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"22": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Segundo que o fantasma dela não estava por aqui, alguém já deve ter levado ela. Aposto que algum corvo… ai ai…",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"23": {
+			"personagem": "Inspetor Miau",
+			"texto": "...?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som": "nenhum"
+		},
+		"24": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "O que eu vi? Eu vejo muitas coisas. Muitas. Coisas.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "res://Sounds/voz_pombo_2.mp3"
+		},
+		"25": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Mas, recentemente, honestamente, nada…",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"26": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Eu estava muito ocupado tentando ficar o máximo distante possível do Pirata… sabe?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"27": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Corvos.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"28": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "E nessa eu dei uma passada pela cozinha e fiquei tomando um pouco desse café, mas eu acho que ele tá vencido.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"29": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "O quê? Você quer ele pra você pra liberar as minhas mãos? Nossa, como você é gentil",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "res://Sounds/voz_pombo_2.mp3"
+		},
+		"30": {
+			"personagem": "",
+			"texto": "(Você não falou nada)",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/transparente.png",
+			"som": "nenhum"
+		},
+		"31": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Ah!! Na verdade, antes eu quero algo em troca… por favor?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "res://Sounds/voz_pombo_2.mp3"
+		},
+		"32": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Qualquer coisa, eu estou desesperado pra conseguir ficar mais imponente, pode até ser o seu chapéu… ele me dá um pouco de medo.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"33": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Espera, o quê? Já pegaram ele hoje? Ahh cara…",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"34": {
+			"personagem": "",
+			"texto": "*Você entregou o Cartão de Empresário Carimbado*",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/transparente.png",
+			"som": "nenhum"
+		},
+		"35": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "UOOOOU. Cara. Isso é incrível. Eu acho que era exatamente isso que faltava pra eu começar a ser respeitado no trabalho!!",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "res://Sounds/voz_pombo_2.mp3"
+		},
+		"36": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Esquece tudo, sabe?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"37": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "'Olá, boa tarde, você já viu meu cartão? Hahaha, eu tenho uma empresa privada, sabe? Eu sei do que estou falando…'",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"38": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Já sinto o poder fluindo pelas minhas veias, obrigado.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"39": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": "Por favor, receba este café. Fará bem pra você. Na verdade, não fará. Mas, quanto mais pessoas próximas da morte, mais dinheiro eu recebo. Ou vá para o Escritório e dê para alguém chique, eu não sei, tipo um lobo.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"40": {
+			"personagem": "Pombo Correio da Morte",
+			"texto": ":)",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pombo_neutro.png",
+			"som": "nenhum"
+		},
+		"41": {
+			"personagem": "",
+			"texto": "*você recebeu uma Xícara de Café*",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/transparente.png",
+			"som": "nenhum"
+		}
+	},
+}

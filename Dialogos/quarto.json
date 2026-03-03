@@ -1,0 +1,88 @@
+{
+	"sistema" : {
+		"1" : {
+			"personagem" : "",
+			"texto" : "*Você usa a Chave do Quarto*",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"2" : {
+			"personagem" : "",
+			"texto" : "…",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"3" : {
+			"personagem" : "",
+			"texto" : "Estranho.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"4" : {
+			"personagem" : "",
+			"texto" : "Ao entrar no quarto, você percebe que, além da elegância natural que o local exala, há um pedaço de papel convenientemente à vista no chão.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"5" : {
+			"personagem" : "",
+			"texto" : "Ao pegar o papel, você consegue ler:",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"6" : {
+			"personagem" : "CARTA DE DEMISSÃO:",
+			"texto" : "Meu querido Mordomo,",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"7" : {
+			"personagem" : "CARTA DE DEMISSÃO:",
+			"texto" : "É com muito pesar em meu coração que comunico-te a incapacidade de mantermos nosso vínculo empregatício devido aos cortes de gastos recentes.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"8" : {
+			"personagem" : "CARTA DE DEMISSÃO:",
+			"texto" : "Apesar de suas altas capacidades de limpeza e orientação familiar, não será possível manter seus serviços. Farei o suficiente para que consiga ser contratado novamente.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"9" : {
+			"personagem" : "CARTA DE DEMISSÃO:",
+			"texto" : "É Carimbado: Vovó Catarina.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"10" : {
+			"personagem" : "",
+			"texto" : "Ao seu lado, há uma garrafa vazia, que tem o seguinte rótulo: Extrato de Bufo alvarius",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"11" : {
+			"personagem" : "",
+			"texto" : "…",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"12" : {
+			"personagem" : "",
+			"texto" : "Acho que todas as pistas para a conclusão do caso foram encontradas, está na hora de retornar à Sala de Jantar.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+	}
+}

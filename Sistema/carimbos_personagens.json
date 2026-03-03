@@ -1,42 +1,42 @@
 {
 	"carimbador" : {
 		"path" : "res://Imagens/carimbos/Carimbo_carimbador.png",
-		"texto" : "Ele é estranho... Mas me deu a CHAVE DO QUARTO",
+		"texto" : "Recebi a Chave do Quarto. Essa criança é mais poderosa do que ele pensa.",
 		"slot" :  "nenhum"
 	},
 	"ermoes" : {
 		"path" : "res://Imagens/carimbos/Carimbo_ermoes.png",
-		"texto" : "",
+		"texto" : "Recebi um Cartão. Quando eu crescer eu quero investir no mercado também.",
 		"slot" :  "nenhum"
 	},
 	"maquinista" : {
 		"path" : "res://Imagens/carimbos/Carimbo_maquinista.png",
-		"texto" : "",
+		"texto" : "Recebi uma Moeda de Ouro. Espero que ele não perceba que eu viajei sem pagar.",
 		"slot" : "nenhum"
 	},
 	"mordomo" : {
 		"path" : "res://Imagens/carimbos/Carimbo_mordomo.png",
-		"texto" : "",
+		"texto" : "É aqui que outro crime começa, não queria trabalhar hoje.",
 		"slot" : "nenhum"
 	},
 	"miau" : {
 		"path" : "res://Imagens/carimbos/Carimbo_pata.png",
-		"texto" : "",
+		"texto" : "Anotação do gato",
 		"slot" : "nenhum"
 	},
 	"pirata" : {
 		"path" : "res://Imagens/carimbos/Carimbo_pirata.png",
-		"texto" : "",
+		"texto" : "Recebi um Queijo de Plástico. Arrghhh… eu acho que me apaixonei pelo Johnny.",
 		"slot" : "nenhum"
 	},
 	"pombo" : {
 		"path" : "res://Imagens/carimbos/Carimbo_pombo.png",
-		"texto" : "",
+		"texto" : "Recebi uma Xícara de Café. Eu acho que ele quer minha alma.",
 		"slot" : "nenhum"
 	},
 	"professor" : {
 		"path" : "res://Imagens/carimbos/Carimbo_professor.png",
-		"texto" : "Apenas um Carimbo Comum",
+		"texto" : "Recebi um carimbo normal. Espero algum dia aprender matemática básica.",
 		"slot" : "nenhum"
 	}
 }

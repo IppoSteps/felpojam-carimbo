@@ -2,23 +2,69 @@
 
 [ext_resource type="Script" uid="uid://3atiswjarffn" path="res://Scripts/sala_estar.gd" id="1_6s2al"]
 [ext_resource type="PackedScene" uid="uid://brigm5hyw1tkh" path="res://Cenas/sis_mapa.tscn" id="1_xtttp"]
+[ext_resource type="Texture2D" uid="uid://blnmfdxocsl58" path="res://Imagens/cenarios/sala de estar_personagens_textura_personagens.png" id="2_snns0"]
+[ext_resource type="PackedScene" uid="uid://bndy3sr6of7pe" path="res://Cenas/sis_carimbos.tscn" id="3_fd5rq"]
+[ext_resource type="PackedScene" uid="uid://bbgw7tmu2cxgo" path="res://Cenas/dialogo.tscn" id="4_8e5m7"]
+[ext_resource type="AudioStream" uid="uid://jhfwuc58jpa" path="res://Songs/musica cenario.mp3" id="6_bp4tf"]
 
-[node name="SalaEstar" type="Node2D" unique_id=1230411227 node_paths=PackedStringArray("mapa")]
+[node name="SalaEstar" type="Node2D" unique_id=1230411227 node_paths=PackedStringArray("dialogo", "carimbo", "mapa", "musica")]
 script = ExtResource("1_6s2al")
+dialogo = NodePath("Control/Dialogo")
+carimbo = NodePath("Control/sis_carimbos")
 mapa = NodePath("Control/SisMapa")
+musica = NodePath("AudioStreamPlayer2D")
 
-[node name="Label" type="Label" parent="." unique_id=326851532]
-offset_left = 526.0
-offset_top = 307.0
-offset_right = 642.0
-offset_bottom = 330.0
-text = "SALA DE ESTAR"
+[node name="SalaEstar" type="TextureRect" parent="." unique_id=853366852]
+offset_right = 1920.0
+offset_bottom = 1116.0
+texture = ExtResource("2_snns0")
+expand_mode = 1
+stretch_mode = 4
 
-[node name="Control" type="Control" parent="." unique_id=497942762]
+[node name="Control" type="Control" parent="." unique_id=1135890872]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 1153.0
-offset_bottom = 648.0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="sis_carimbos" parent="Control" unique_id=232167546 instance=ExtResource("3_fd5rq")]
+layout_mode = 1
+offset_right = 1880.0
+offset_bottom = 1039.0
+
+[node name="Dialogo" parent="Control" unique_id=1920572738 instance=ExtResource("4_8e5m7")]
+layout_mode = 1
+offset_right = 1880.0
+offset_bottom = 1039.0
 
 [node name="SisMapa" parent="Control" unique_id=257959995 instance=ExtResource("1_xtttp")]
+visible = false
 layout_mode = 1
+offset_right = 1875.0
+offset_bottom = 1039.0
+
+[node name="Maquinista" type="TextureButton" parent="." unique_id=989897862 groups=["botoes"]]
+offset_left = 182.0
+offset_top = 273.0
+offset_right = 402.0
+offset_bottom = 818.0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Pirata" type="TextureButton" parent="." unique_id=113706838 groups=["botoes"]]
+offset_left = 1215.0
+offset_top = 428.0
+offset_right = 1489.0
+offset_bottom = 834.0
+ignore_texture_size = true
+stretch_mode = 5
+flip_h = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=63066101]
+stream = ExtResource("6_bp4tf")
+autoplay = true
+bus = &"Musica"
+parameters/looping = true
+
+[connection signal="pressed" from="Maquinista" to="." method="_on_maquinista_pressed"]
+[connection signal="pressed" from="Pirata" to="." method="_on_pirata_pressed"]

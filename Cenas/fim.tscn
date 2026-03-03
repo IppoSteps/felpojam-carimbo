@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://dukvb0rpoybf8"]
+
+[ext_resource type="Texture2D" uid="uid://ccvr0rc2ox5m3" path="res://Imagens/cenarios/Casa_menu.png" id="1_1i7i0"]
+[ext_resource type="Script" uid="uid://b188ujmb4fgc2" path="res://Scripts/fim.gd" id="1_f8j1y"]
+[ext_resource type="FontFile" uid="uid://cbgykwhcej8oa" path="res://Fonts/AmaticSC-Bold.ttf" id="2_alv5u"]
+[ext_resource type="Texture2D" uid="uid://bqb3nh48b7qf" path="res://Imagens/UI/botao_menu.png" id="4_sjdxe"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_f8j1y"]
+line_spacing = 0.0
+font = ExtResource("2_alv5u")
+font_size = 134
+shadow_size = 0
+
+[sub_resource type="LabelSettings" id="LabelSettings_84nx8"]
+font = ExtResource("2_alv5u")
+font_size = 36
+font_color = Color(0, 0, 0, 1)
+
+[node name="Fim" type="Node2D" unique_id=1596152997]
+script = ExtResource("1_f8j1y")
+
+[node name="Fundo" type="TextureRect" parent="." unique_id=451488531]
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("1_1i7i0")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="." unique_id=709988207]
+offset_left = 277.0
+offset_top = 246.0
+offset_right = 1666.0
+offset_bottom = 910.0
+text = "OBRIGADO POR JOGAR!!
+
+Equipe Bobolandia"
+label_settings = SubResource("LabelSettings_f8j1y")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BotaoIniciar" type="TextureButton" parent="." unique_id=531862752]
+offset_left = 811.0
+offset_top = 870.0
+offset_right = 1113.1904
+offset_bottom = 984.0
+texture_normal = ExtResource("4_sjdxe")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="BotaoIniciar" unique_id=609040930]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 26.0
+offset_top = 21.0
+offset_right = -21.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Menu Inicial"
+label_settings = SubResource("LabelSettings_84nx8")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="BotaoIniciar" to="." method="_on_botao_iniciar_pressed"]

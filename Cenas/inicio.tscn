@@ -2,10 +2,22 @@
 
 [ext_resource type="PackedScene" uid="uid://bbgw7tmu2cxgo" path="res://Cenas/dialogo.tscn" id="1_0ujk8"]
 [ext_resource type="Script" uid="uid://bbnnmjmataw8h" path="res://Scripts/inicio.gd" id="1_pef1i"]
+[ext_resource type="Texture2D" uid="uid://uldicr1htprs" path="res://Imagens/fundos/Cena_inicial_gato_e_sapo.png" id="2_731mt"]
+[ext_resource type="PackedScene" uid="uid://bndy3sr6of7pe" path="res://Cenas/sis_carimbos.tscn" id="3_yvfjp"]
+[ext_resource type="AudioStream" uid="uid://mv3i233ykaj4" path="res://Songs/musica inicial.mp3" id="4_nvhof"]
 
-[node name="Inicio" type="Node2D" unique_id=1464875064 node_paths=PackedStringArray("dialogo")]
+[node name="Inicio" type="Node2D" unique_id=1464875064 node_paths=PackedStringArray("dialogo", "carimbo", "fundo")]
 script = ExtResource("1_pef1i")
 dialogo = NodePath("Control/Dialogo")
+carimbo = NodePath("Control/sis_carimbos")
+fundo = NodePath("Fundo")
+
+[node name="Fundo" type="TextureRect" parent="." unique_id=830078208]
+visible = false
+offset_right = 1920.0
+offset_bottom = 1082.0
+texture = ExtResource("2_731mt")
+expand_mode = 1
 
 [node name="Control" type="Control" parent="." unique_id=902507845]
 layout_mode = 3
@@ -15,3 +27,17 @@ offset_bottom = 649.0
 
 [node name="Dialogo" parent="Control" unique_id=1920572738 instance=ExtResource("1_0ujk8")]
 layout_mode = 1
+offset_right = 767.4823
+offset_bottom = 432.0
+
+[node name="sis_carimbos" parent="Control" unique_id=232167546 instance=ExtResource("3_yvfjp")]
+layout_mode = 1
+offset_right = 767.0
+offset_bottom = 433.0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1963816233]
+stream = ExtResource("4_nvhof")
+autoplay = true
+bus = &"Musica"
+area_mask = 2
+parameters/looping = true

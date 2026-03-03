@@ -1,0 +1,426 @@
+{
+	"sistema_1" : {
+			"1" : {
+				"personagem" : "",
+				"texto" : "Todos estão aqui.",
+				"fundo" : "res://Imagens/sprites/transparente.png",
+				"sprite" : "res://Imagens/sprites/transparente.png",
+				"som" : "nenhum"
+			},
+			"2" : {
+				"personagem" : "",
+				"texto" : "Chegou a hora de apontar o culpado.",
+				"fundo" : "res://Imagens/sprites/transparente.png",
+				"sprite" : "res://Imagens/sprites/transparente.png",
+				"som" : "nenhum"
+			},
+			"3" : {
+				"personagem" : "",
+				"texto" : "Escolha. QUEM É O CRIMINOSO?",
+				"fundo" : "res://Imagens/sprites/transparente.png",
+				"sprite" : "res://Imagens/sprites/transparente.png",
+				"som" : "nenhum"
+			}
+	},
+	
+	"ermoes" : {
+			"1" : {
+				"personagem" : "",
+				"texto" : "Sério?",
+				"fundo" : "res://Imagens/sprites/transparente.png",
+				"sprite" : "res://Imagens/sprites/transparente.png",
+				"som" : "nenhum"
+			}
+	},
+	
+	"maquinista" : {
+			"1" : {
+				"personagem" : "",
+				"texto" : "Não.",
+				"fundo" : "res://Imagens/sprites/transparente.png",
+				"sprite" : "res://Imagens/sprites/transparente.png",
+				"som" : "nenhum"
+			}
+	},
+	
+	"professor" : {
+			"1" : {
+				"personagem" : "",
+				"texto" : "Por incrivel que pareça... Não.",
+				"fundo" : "res://Imagens/sprites/transparente.png",
+				"sprite" : "res://Imagens/sprites/transparente.png",
+				"som" : "nenhum"
+			}
+	},
+	
+	"pombo" : {
+			"1" : {
+				"personagem" : "",
+				"texto" : "Nem morto.",
+				"fundo" : "res://Imagens/sprites/transparente.png",
+				"sprite" : "res://Imagens/sprites/transparente.png",
+				"som" : "nenhum"
+			}
+	},
+	
+	"pirata" : {
+			"1" : {
+				"personagem" : "",
+				"texto" : "Nope.",
+				"fundo" : "res://Imagens/sprites/transparente.png",
+				"sprite" : "res://Imagens/sprites/transparente.png",
+				"som" : "nenhum"
+			}
+	},
+
+	"carimbador" : {
+			"1" : {
+				"personagem" : "",
+				"texto" : "Naum.",
+				"fundo" : "res://Imagens/sprites/transparente.png",
+				"sprite" : "res://Imagens/sprites/transparente.png",
+				"som" : "nenhum"
+			}
+	},
+	
+	"mordomo": {
+  "1": {
+	"personagem": "Inspetor Miau",
+	"texto": "MIAU!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Sr Miau_n.png",
+	"som": "nenhum"
+  },
+  "2": {
+	"personagem": "Todos",
+	"texto": ":O",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/transparente.png",
+	"som": "nenhum"
+  },
+  "3": {
+	"personagem": "Mordomo",
+	"texto": "Eu? M-mas, eu?! Por que eu? Não compreendo seu raciocínio, Inspetor. Isso é algum tipo de brincadeira??",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_N.png",
+	"som": "res://Sounds/voz_mordomo_1.mp3"
+  },
+  "4": {
+	"personagem": "Inspetor Miau",
+	"texto": ">:(",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Sr Miau_n.png",
+	"som": "nenhum"
+  },
+  "5": {
+	"personagem": "Maquinista",
+	"texto": "M-mas... ele amava ela!",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Maquinista_neutro.png",
+	"som": "res://Sounds/voz_maquinista_1.mp3"
+  },
+  "6": {
+	"personagem": "Mordomo",
+	"texto": "Isso! Amava mesmo!",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_N.png",
+	"som": "res://Sounds/voz_mordomo_1.mp3"
+  },
+  "7": {
+	"personagem": "Inspetor Miau",
+	"texto": "E você não, Maquinista?",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Sr Miau_n.png",
+	"som": "nenhum"
+  },
+  "8": {
+	"personagem": "Maquinista",
+	"texto": "g-gulp...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Maquinista_neutro.png",
+	"som": "nenhum"
+  },
+  "9": {
+	"personagem": "Mordomo",
+	"texto": ".....................",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_N.png",
+	"som": "nenhum"
+  },
+  "10": {
+	"personagem": "Mordomo",
+	"texto": " ...ok. Você conseguiu... Você acertou!!! VOCÊ ACERTOU!!!!!!!!!!!!! *Aham*- meus parabéns. Mas é mais complexo do que isso... deixe-me explicar o porquê de eu ter a assassinado à sangue frio:",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "res://Sounds/voz_mordomo_1.mp3"
+  },
+  "11": {
+	"personagem": "Mordomo",
+	"texto": "Eu já havia lhe dito que a Vovó Catarina era a melhor carimbeira do mundo e *bla bla bla*",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "nenhum"
+  },
+  "12": {
+	"personagem": "Mordomo",
+	"texto": "Mas o que eu não falei pra você foi o fato de que, em sua longa velhice, ela começou a se sentir cada vez mais solitária, sabe?",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "nenhum"
+  },
+  "13": {
+	"personagem": "Mordomo",
+	"texto": "Como se nenhum de seus herdeiros de fato a visitasse o quanto ela gostaria... Ela ficou impaciente, quem pode culpá-la?",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "nenhum"
+  },
+  "14": {
+	"personagem": "Mordomo",
+	"texto": "E em sua solidão, ela carimbou mentalmente um plano tanto para descobrir quem eram os maninhos reais e os falsinhos entre sua família.",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "nenhum"
+  },
+  "15": {
+	"personagem": "Mordomo",
+	"texto": "Para assim, manter mais contato no restante de sua vida e para, finalmente, decidir quem que iria ganhar o Carimbo de Ouro...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "nenhum"
+  },
+  "16": {
+	"personagem": "Mordomo",
+	"texto": "Pois então, ela decidiu forjar sua própria morte... e pediu a minha ajuda para colocar seu plano mirabolante em ação.",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "res://Sounds/voz_mordomo_1.mp3"
+  },
+  "17": {
+	"personagem": "Todos",
+	"texto": ":0 como assim",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/transparente.png",
+	"som": "nenhum"
+  },
+  "18": {
+	"personagem": "Pombo Correio da Morte",
+	"texto": "M-mas ela tomou veneno mesmo, então?",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+	"som": "res://Sounds/voz_pombo_2.mp3"
+  },
+  "19": {
+	"personagem": "Mordomo",
+	"texto": "Claro que não, ela só tomou seu chá habitual mesmo e fingiu ter morrido no caixão.",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "res://Sounds/voz_mordomo_1.mp3"
+  },
+  "20": {
+	"personagem": "Pombo Correio da Morte",
+	"texto": "Mas eu li a autópsia dela, ela realmente tinha sido envenenada!!",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+	"som": "res://Sounds/voz_pombo_2.mp3"
+  },
+  "21": {
+	"personagem": "Mordomo",
+	"texto": "Ahh... fui eu que escrevi aquilo! Antes de ser mordomo, eu trabalhava em funerárias... meu passado é extenso.",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "res://Sounds/voz_mordomo_1.mp3"
+  },
+  "22": {
+	"personagem": "Pombo Correio da Morte",
+	"texto": ":(",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+	"som": "nenhum"
+  }
+	},
+	"vovo" : {
+		"1": {
+	"personagem": "Vovó",
+	"texto": "AQUI!!!!!!!",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Vovó_feliz.png",
+	"som": "res://Sounds/voz_vovo_1.mp3"
+  },
+  "2": {
+	"personagem": "Todos",
+	"texto": ":000",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/transparente.png",
+	"som": "nenhum"
+  },
+  "3": {
+	"personagem": "Vovó",
+	"texto": "E eu só estava esperando pra ver quem seria o espertalhão que tentaria roubar o meu Carimbo de Ouro!! Saber exatamente quem seria o neto de bom coração que entraria tanto no meu testamento, quanto no meu coração de novo...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Vovó_neutro.png",
+	"som": "nenhum"
+  },
+  "4": {
+	"personagem": "Todos",
+	"texto": ":(",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/transparente.png",
+	"som": "nenhum"
+  },
+  "5": {
+	"personagem": "Professor",
+	"texto": "M-mas Vovó, você nos deixou tão tristes, tão preocupados... Eu, pessoalmente, não conseguia lhe visitar tanto quanto gostaria pelo número de aulas que estou dando ultimamente, sabe? Muitas provas para carimbar...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/lobao_neutro.png",
+	"som": "res://Sounds/voz_professor_1.mp3"
+  },
+  "6": {
+	"personagem": "Pombo Correio da Morte",
+	"texto": "Sinto o mesmo... ando tendo que fazer muitas entregas, muitas pessoas pra orientar e muita papelada pra assinar. Na correria, sempre esqueço de ligar...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+	"som": "res://Sounds/voz_pombo_2.mp3"
+  },
+  "7": {
+	"personagem": "Pirata",
+	"texto": "Arghh... Eu sou igual... Não passo um dia sem ter que caçar uns moluscos e fora do alto mar...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+	"som": "res://Sounds/voz_pirata_1.mp3"
+  },
+  "8": {
+	"personagem": "Maquinista",
+	"texto": "Eu também",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Maquinista_neutro.png",
+	"som": "res://Sounds/voz_maquinista_1.mp3"
+  },
+  "9": {
+	"personagem": "Ermões",
+	"texto": "Nós também",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Ermoes_neutro.png",
+	"som": "res://Sounds/voz_ermoes_1.mp3"
+  },
+  "10": {
+	"personagem": "Carimbador Noturno",
+	"texto": "Eu também",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Carimbador_neutro.png",
+	"som": "res://Sounds/voz_carimbador_3.mp3"
+  },
+  "11": {
+	"personagem": "Professor",
+	"texto": "Nós nos desculpamos se você se sentiu sozinha, Vovó... Nós todos te amamos, só andamos em uma época muito ocupada nas nossas vidas... eu, pelo menos, pretendo começar a manter mais contato. Independente do seu testamento.",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/lobao_neutro.png",
+	"som": "res://Sounds/voz_professor_1.mp3"
+  },
+  "12": {
+	"personagem": "Mordomo",
+	"texto": "Vê, madame? Relembra que eu lhe disse exatamente isso? Às vezes, a vida naturalmente forma uma distância inevitável, mas ela não necessariamente é para sempre.",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "res://Sounds/voz_mordomo_1.mp3"
+  },
+  "13": {
+	"personagem": "Mordomo",
+	"texto": "O que é necessário, seria manter a honestidade e falar para os que você se importa como você está se sentindo...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Mordomo_pata.png",
+	"som": "nenhum"
+  },
+  "14": {
+	"personagem": "Vovó",
+	"texto": "Hmmm...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Vovó_neutro.png",
+	"som": "res://Sounds/voz_vovo_1.mp3"
+  },
+  "15": {
+	"personagem": "Vovó",
+	"texto": "Ok. Acho que talvez você tenha razão... Eu acho que acabei exagerando um pouco, ha ha ha...       ha...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Vovó_feliz.png",
+	"som": "nenhum"
+  },
+  "16": {
+	"personagem": "Vovó",
+	"texto": "Peço perdão por isso, meus netinhos... É só que, ser a melhor carimbeira do mundo às vezes significa que você sente muita solidão, sabem?",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Vovó_neutro.png",
+	"som": "nenhum"
+  },
+  "17": {
+	"personagem": "Vovó",
+	"texto": "Tanta coisa pra carimbar, tantas cartas não direcionadas a mim... Bom, mas eu não pretendo ir pro outro lado tão cedo.",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Vovó_neutro.png",
+	"som": "nenhum"
+  },
+  "18": {
+	"personagem": "Vovó",
+	"texto": "E, aproveitando que todos estão aqui, talvez, se vocês quiserem, poderíamos...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Vovó_neutro.png",
+	"som": "nenhum"
+  },
+  "19": {
+	"personagem": "Vovó",
+	"texto": "jantar?",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Vovó_feliz.png",
+	"som": "res://Sounds/voz_vovo_1.mp3"
+  },
+  "20": {
+	"personagem": "",
+	"texto": "...",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/transparente.png",
+	"som": "nenhum"
+  },
+  "21": {
+	"personagem": "Todos",
+	"texto": "Uhuulll!! Clarooooo!!",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/transparente.png",
+	"som": "nenhum"
+  },
+  "22": {
+	"personagem": "Pombo Correio da Morte",
+	"texto": "Que fome!!",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Pombo_mascara_neutro.png",
+	"som": "res://Sounds/voz_pombo_2.mp3"
+  },
+  "23": {
+	"personagem": "Carimbador Noturno",
+	"texto": "Que saudades de jantar aqui!!",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Carimbador_neutro.png",
+	"som": "res://Sounds/voz_carimbador_3.mp3"
+  },
+  "24": {
+	"personagem": "Vovó",
+	"texto": "E, claro, gostaria de te agradecer, Inspetor Miau, por resolver o meu assassinato e me ajudar a trazer todos pra esse jantar em família!",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Vovó_neutro.png",
+	"som": "res://Sounds/voz_vovo_1.mp3"
+  },
+  "25": {
+	"personagem": "Vovó",
+	"texto": "Você está convidado para ficar e comer conosco, caso você queira! Temos bastante salmão, *he he*",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Vovó_feliz.png",
+	"som": "nenhum"
+  },
+  "26": {
+	"personagem": "Inspetor Miau",
+	"texto": ">:) Miau!",
+	"fundo": "res://Imagens/sprites/transparente.png",
+	"sprite": "res://Imagens/sprites/Sr Miau_n.png",
+	"som": "nenhum"
+  }
+	}
+}

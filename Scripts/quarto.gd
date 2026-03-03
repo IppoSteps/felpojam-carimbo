@@ -1,15 +1,8 @@
 extends Node2D
 
-@export var mapa: Control
+@export var dialogo: Control
 
-func _unhandled_input(event: InputEvent) -> void:
-	#var botoes = get_tree().get_nodes_in_group("botoes")
-	
-	if Input.is_action_just_pressed("abre_mapa"):
-		#for b in botoes:
-			#b.visible = false
-		mapa.visible = true
-	if Input.is_action_just_pressed("esc"):
-		#for b in botoes:
-			#b.visible = true
-		mapa.visible = false
+func _ready():
+	var personagem = "sistema"
+	await dialogo.muda_display("res://Dialogos/quarto.json", personagem)
+	get_tree().change_scene_to_file("res://Cenas/comodos/jantar_final.tscn")

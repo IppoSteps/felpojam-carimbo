@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://shr8ugioq8ua"
+path="res://.godot/imported/musica pirata.mp3-8635d85b7f2377a8d7c18b1227d1b6f4.mp3str"
+
+[deps]
+
+source_file="res://Songs/musica pirata.mp3"
+dest_files=["res://.godot/imported/musica pirata.mp3-8635d85b7f2377a8d7c18b1227d1b6f4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

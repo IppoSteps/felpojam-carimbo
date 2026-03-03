@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ci6pdsj5br4wc"
+path="res://.godot/imported/musica maquinista.mp3-1c35dce7c3b1cf199f714baf0b9d5e2b.mp3str"
+
+[deps]
+
+source_file="res://Songs/musica maquinista.mp3"
+dest_files=["res://.godot/imported/musica maquinista.mp3-1c35dce7c3b1cf199f714baf0b9d5e2b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

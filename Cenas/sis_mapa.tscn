@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" uid="uid://wxcyqbtopdhu" path="res://Scripts/sis_mapa.gd" id="1_0kkbd"]
 [ext_resource type="Texture2D" uid="uid://wwne05t20v1y" path="res://Imagens/caderno/Caderno com mapa.png" id="1_2cn3r"]
+[ext_resource type="PackedScene" uid="uid://bbgw7tmu2cxgo" path="res://Cenas/dialogo.tscn" id="3_ckdwc"]
 
-[node name="SisMapa" type="Control" unique_id=257959995]
-visible = false
+[node name="SisMapa" type="Control" unique_id=257959995 node_paths=PackedStringArray("dialogo")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -12,6 +12,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_0kkbd")
+dialogo = NodePath("Dialogo")
 
 [node name="Caderno" type="TextureRect" parent="." unique_id=1070698049]
 layout_mode = 1
@@ -26,31 +27,34 @@ stretch_mode = 5
 
 [node name="SalaJantar" type="TextureButton" parent="Caderno" unique_id=483217120 groups=["botoes_mapa"]]
 layout_mode = 0
-offset_left = 221.0
-offset_top = 62.0
-offset_right = 378.0
-offset_bottom = 286.0
+offset_left = 356.0
+offset_top = 96.0
+offset_right = 637.0
+offset_bottom = 483.0
 
 [node name="SalaEstar" type="TextureButton" parent="Caderno" unique_id=1673908866 groups=["botoes_mapa"]]
 layout_mode = 0
-offset_left = 401.0
-offset_top = 81.0
-offset_right = 552.0
-offset_bottom = 307.0
+offset_left = 666.0
+offset_top = 134.0
+offset_right = 931.0
+offset_bottom = 530.6225
 
 [node name="Escritorio" type="TextureButton" parent="Caderno" unique_id=570060108 groups=["botoes_mapa"]]
 layout_mode = 0
-offset_left = 205.0
-offset_top = 299.0
-offset_right = 366.0
-offset_bottom = 579.0
+offset_left = 351.0
+offset_top = 496.0
+offset_right = 619.0
+offset_bottom = 962.0869
 
 [node name="Quarto" type="TextureButton" parent="Caderno" unique_id=2083538056 groups=["botoes_mapa"]]
 layout_mode = 0
-offset_left = 388.0
-offset_top = 336.0
-offset_right = 527.0
-offset_bottom = 575.0
+offset_left = 633.0
+offset_top = 560.0
+offset_right = 870.0
+offset_bottom = 966.5963
+
+[node name="Dialogo" parent="." unique_id=1920572738 instance=ExtResource("3_ckdwc")]
+layout_mode = 1
 
 [connection signal="pressed" from="Caderno/SalaJantar" to="." method="_on_sala_jantar_pressed"]
 [connection signal="pressed" from="Caderno/SalaEstar" to="." method="_on_sala_estar_pressed"]

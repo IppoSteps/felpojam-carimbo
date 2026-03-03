@@ -1,9 +1,22 @@
 [gd_scene format=3 uid="uid://bp04rk6w2g6ee"]
 
 [ext_resource type="Script" uid="uid://cq4vdoghq5727" path="res://Scripts/creditos.gd" id="1_5vcb0"]
+[ext_resource type="Texture2D" uid="uid://ccvr0rc2ox5m3" path="res://Imagens/cenarios/Casa_menu.png" id="2_a3en7"]
+[ext_resource type="FontFile" uid="uid://cbgykwhcej8oa" path="res://Fonts/AmaticSC-Bold.ttf" id="3_0ep0f"]
+[ext_resource type="Texture2D" uid="uid://by7x77qq73tex" path="res://Imagens/UI/botao_menu 2.png" id="4_0ep0f"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_g4s2e"]
-font_size = 60
+font = ExtResource("3_0ep0f")
+font_size = 115
+
+[sub_resource type="LabelSettings" id="LabelSettings_lp7pw"]
+font = ExtResource("3_0ep0f")
+font_size = 36
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_y3t63"]
+font = ExtResource("3_0ep0f")
+font_size = 75
 
 [node name="Creditos" type="Control" unique_id=639358692]
 layout_mode = 3
@@ -13,6 +26,13 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_5vcb0")
+
+[node name="Fundo" type="TextureRect" parent="." unique_id=496128294]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_a3en7")
+expand_mode = 1
 
 [node name="Titulo" type="Label" parent="." unique_id=991805586]
 layout_mode = 1
@@ -28,50 +48,88 @@ label_settings = SubResource("LabelSettings_g4s2e")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Menu" type="Button" parent="." unique_id=917056784]
+[node name="Menu" type="TextureButton" parent="." unique_id=1000482231]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 27.0
-offset_right = 71.0
-offset_bottom = 58.0
-text = "<"
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 312.9365
+offset_bottom = 133.0
+texture_normal = ExtResource("4_0ep0f")
+ignore_texture_size = true
+stretch_mode = 0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=342322826]
+[node name="Label" type="Label" parent="Menu" unique_id=502734053]
 layout_mode = 1
-anchors_preset = 4
-anchor_top = 0.5
-anchor_bottom = 0.5
-offset_left = 33.21
-offset_top = -25.0
-offset_right = 324.21
-offset_bottom = 25.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 23.0
+offset_top = 16.0
+offset_right = -24.0
+offset_bottom = -19.0
+grow_horizontal = 2
 grow_vertical = 2
+text = "Menu Principal"
+label_settings = SubResource("LabelSettings_lp7pw")
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="Equipe" type="Label" parent="VBoxContainer" unique_id=2095712437]
-layout_mode = 2
+[node name="Equipe" type="Label" parent="." unique_id=2095712437]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 778.0
+offset_right = 430.0
+offset_bottom = 874.0
 text = "EQUIPE BOBOLANDIA"
+label_settings = SubResource("LabelSettings_y3t63")
 
-[node name="Steps" type="LinkButton" parent="VBoxContainer" unique_id=413466482]
-layout_mode = 2
-text = "Steps - Programador / Game Designer"
+[node name="Steps" type="LinkButton" parent="." unique_id=413466482]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 870.0
+offset_right = 412.0
+offset_bottom = 913.0
+theme_override_fonts/font = ExtResource("3_0ep0f")
+theme_override_font_sizes/font_size = 33
+text = "Programador e Game Designer - Steps "
 underline = 2
 uri = "https://github.com/IppoSteps"
 
-[node name="Coudi" type="LinkButton" parent="VBoxContainer" unique_id=2087051791]
-layout_mode = 2
-text = "Coudicino - Musicista / Sonoplasta/ Roteirista"
+[node name="Coudi" type="LinkButton" parent="." unique_id=2087051791]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 913.0
+offset_right = 411.0
+offset_bottom = 956.0
+theme_override_fonts/font = ExtResource("3_0ep0f")
+theme_override_font_sizes/font_size = 33
+text = "Musicista e Roteirista - Coudicino"
 underline = 2
 uri = "https://soundcloud.com/user-827713480"
 
-[node name="Dante" type="LinkButton" parent="VBoxContainer" unique_id=698044623]
-layout_mode = 2
-text = "Dante (woofdi) - Diretor de arte / Artista"
+[node name="Dante" type="LinkButton" parent="." unique_id=698044623]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 999.0
+offset_right = 466.0
+offset_bottom = 1042.0
+theme_override_fonts/font = ExtResource("3_0ep0f")
+theme_override_font_sizes/font_size = 33
+text = "Artista e Diretor de Arte - woofdi (Dante E.B.)"
 underline = 2
 uri = "https://woof-di.carrd.co/"
 
-[node name="Sra Raposa" type="LinkButton" parent="VBoxContainer" unique_id=983909977]
-layout_mode = 2
-text = "Sra. Raposa - Artista"
+[node name="Sra Raposa" type="LinkButton" parent="." unique_id=983909977]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 956.0
+offset_right = 511.0
+offset_bottom = 999.0
+theme_override_colors/font_focus_color = Color(0.63784313, 0.6378431, 0.6378441, 1)
+theme_override_fonts/font = ExtResource("3_0ep0f")
+theme_override_font_sizes/font_size = 33
+text = "Artista e concept artist - Sra. Raposa (Eyshila Silva)"
 underline = 2
+uri = "https://sraposa.my.canva.site/"
 
 [connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

@@ -1,0 +1,46 @@
+{
+	"carimbador" : {
+		"1" : {"personagem" : "",
+		"texto" : "(Ele parece ocupado procurando por algo, talvez seja melhor falar com ele depois.)",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/transparente.png",
+		"som" : "nenhum"}
+	},
+	"ermoes" : {
+		"1" : {"personagem" : "",
+		"texto" : "(Eles estão discutindo sobre algo, melhor não atrapalhar.)",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/transparente.png",
+		"som" : "nenhum"}
+	},
+	"pirata" : {
+		"1" : {"personagem" : "",
+		"texto" : "(Ele me da um pouco de medo. Vou falar com ele depois, talvez com algo para agradá-lo.)",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/transparente.png",
+		"som" : "nenhum"}
+	},
+	"pombo" : {
+		"1": {"personagem" : "",
+		"texto" : "(Parece que ele está meio cabisbaixo, acho que vou esperar um pouco antes de falar com ele.)",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/transparente.png",
+		"som" : "nenhum"}
+	},
+	"professor" : {
+		"1" : {"personagem" : "",
+		"texto" : "(Ele parece distraído com aqueles livros, melhor ter um bom motivo pra conversar com ele.)",
+		"fundo" : "res://Imagens/sprites/transparente.png",
+		"sprite" : "res://Imagens/sprites/transparente.png",
+		"som" : "nenhum"}
+	},
+	"quarto": {
+	"1": {
+		"personagem": "",
+		"texto": "(A porta do quarto está trancada. Talvez eu encontre a chave em algum lugar?.)",
+		"fundo": "res://Imagens/sprites/transparente.png",
+		"sprite": "res://Imagens/sprites/transparente.png",
+		"som": "nenhum"
+	}
+}
+}

@@ -1,15 +1,84 @@
 extends Node2D
 
+
+@export var dialogo: Control
+@export var carimbo: Control
 @export var mapa: Control
+@export var musica: AudioStreamPlayer2D
+
+func _ready():
+	carimbo.aplica_estado()
+
+var mapa_aberto = false
 
 func _unhandled_input(event: InputEvent) -> void:
-	#var botoes = get_tree().get_nodes_in_group("botoes")
+	var botoes = get_tree().get_nodes_in_group("botoes")
 	
-	if Input.is_action_just_pressed("abre_mapa"):
-		#for b in botoes:
-			#b.visible = false
+	if Input.is_action_just_pressed("abre_mapa") and not mapa_aberto:
+		mapa_aberto = true
+		for b in botoes:
+			b.visible = false
 		mapa.visible = true
-	if Input.is_action_just_pressed("esc"):
-		#for b in botoes:
-			#b.visible = true
+	if Input.is_action_just_pressed("esc") and mapa_aberto:
+		mapa_aberto = false
+		for b in botoes:
+			b.visible = true
 		mapa.visible = false
+		
+func trocar_musica(path):
+	musica.stop()
+	musica.stream = load(path)
+	musica.play()
+
+func _on_pirata_pressed() -> void:
+	var botoes = get_tree().get_nodes_in_group("botoes")
+	var personagem = "pirata"
+	
+	
+	for b in botoes:
+		b.disabled = true
+		b.visible = false
+	
+	if not Inventario.pode_conversar(personagem):
+		await dialogo.muda_display("res://Dialogos/ocupados.json", personagem)
+		for b in botoes:
+			b.visible = true
+			b.disabled = false
+		return
+		
+	trocar_musica("res://Songs/musica pirata.mp3")
+	await dialogo.muda_display("res://Dialogos/sala_estar.json", personagem)
+	await carimbo.define_carimbo(personagem)
+	Inventario.concluir_conversa(personagem)
+	
+	for b in botoes:
+		b.visible = true
+		b.disabled = false
+	trocar_musica("res://Songs/musica cenario.mp3")
+
+
+func _on_maquinista_pressed() -> void:
+	var botoes = get_tree().get_nodes_in_group("botoes")
+	var personagem = "maquinista"
+	
+	
+	for b in botoes:
+		b.disabled = true
+		b.visible = false
+	
+	if not Inventario.pode_conversar(personagem):
+		await dialogo.muda_display("res://Dialogos/ocupados.json", personagem)
+		for b in botoes:
+			b.visible = true
+			b.disabled = false
+		return
+
+	trocar_musica("res://Songs/musica maquinista.mp3")
+	await dialogo.muda_display("res://Dialogos/sala_estar.json", personagem)
+	await carimbo.define_carimbo(personagem)
+	Inventario.concluir_conversa(personagem)
+	
+	for b in botoes:
+		b.visible = true
+		b.disabled = false
+	trocar_musica("res://Songs/musica cenario.mp3")

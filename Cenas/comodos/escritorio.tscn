@@ -1,24 +1,25 @@
 [gd_scene format=3 uid="uid://b78qn3rbn8ncg"]
 
 [ext_resource type="Script" uid="uid://b6hsw1j76nl5t" path="res://Scripts/escritorio.gd" id="1_fqgwy"]
-[ext_resource type="Texture2D" uid="uid://y3k6sar6ttvy" path="res://Imagens/cenarios/Escritório.png" id="1_hgkq3"]
 [ext_resource type="PackedScene" uid="uid://bbgw7tmu2cxgo" path="res://Cenas/dialogo.tscn" id="2_fqgwy"]
+[ext_resource type="Texture2D" uid="uid://0galg72k2uao" path="res://Imagens/cenarios/escritorio_personagens_textura_personagens.png" id="2_u30r7"]
 [ext_resource type="PackedScene" uid="uid://bndy3sr6of7pe" path="res://Cenas/sis_carimbos.tscn" id="3_de2pe"]
 [ext_resource type="PackedScene" uid="uid://brigm5hyw1tkh" path="res://Cenas/sis_mapa.tscn" id="4_cepwc"]
-[ext_resource type="Texture2D" uid="uid://bnlcabjc1w6ck" path="res://Imagens/sprites/lobao_neutro.png" id="5_h84ts"]
-[ext_resource type="Texture2D" uid="uid://4hi7m3porukv" path="res://Imagens/sprites/Carimbador_neutro.png" id="6_5jkep"]
+[ext_resource type="AudioStream" uid="uid://jhfwuc58jpa" path="res://Songs/musica cenario.mp3" id="6_hgkq3"]
 
-[node name="Escritorio" type="Node2D" unique_id=345219309 node_paths=PackedStringArray("dialogo", "carimbo", "mapa", "professor")]
+[node name="Escritorio" type="Node2D" unique_id=345219309 node_paths=PackedStringArray("dialogo", "carimbo", "mapa", "musica", "professor")]
 script = ExtResource("1_fqgwy")
 dialogo = NodePath("Control/Dialogo")
 carimbo = NodePath("Control/sis_carimbos")
 mapa = NodePath("Control/SisMapa")
+musica = NodePath("AudioStreamPlayer2D")
 professor = NodePath("Professor")
 
 [node name="Escritório" type="TextureRect" parent="." unique_id=1904856360]
 offset_right = 1157.0
 offset_bottom = 1157.0
-texture = ExtResource("1_hgkq3")
+scale = Vector2(1.655, 1.655)
+texture = ExtResource("2_u30r7")
 expand_mode = 1
 stretch_mode = 4
 
@@ -30,37 +31,43 @@ offset_bottom = 40.0
 
 [node name="sis_carimbos" parent="Control" unique_id=232167546 instance=ExtResource("3_de2pe")]
 layout_mode = 1
-offset_right = 1117.0
-offset_bottom = 612.0
+offset_right = 1876.0
+offset_bottom = 1034.0
 
 [node name="Dialogo" parent="Control" unique_id=1920572738 instance=ExtResource("2_fqgwy")]
 layout_mode = 1
-offset_right = 1119.0
-offset_bottom = 610.0
+offset_right = 1878.0
+offset_bottom = 1039.0
 
 [node name="SisMapa" parent="Control" unique_id=257959995 instance=ExtResource("4_cepwc")]
+visible = false
 layout_mode = 1
-offset_right = 1118.0
-offset_bottom = 606.0
+offset_right = 1880.0
+offset_bottom = 1038.0
 
 [node name="Professor" type="TextureButton" parent="." unique_id=991273655 groups=["botoes"]]
-offset_left = 513.0
-offset_top = 101.0
-offset_right = 657.0
-offset_bottom = 366.92798
-texture_normal = ExtResource("5_h84ts")
+offset_left = 67.0
+offset_top = 110.00001
+offset_right = 235.0
+offset_bottom = 600.0
+scale = Vector2(1.655, 1.655)
 ignore_texture_size = true
 stretch_mode = 5
-flip_h = true
 
 [node name="Carimbador" type="TextureButton" parent="." unique_id=433493067 groups=["botoes"]]
-offset_left = 161.0
-offset_top = 331.0
-offset_right = 279.0
-offset_bottom = 490.45947
-texture_normal = ExtResource("6_5jkep")
+offset_left = 1604.0
+offset_top = 479.0
+offset_right = 1773.0
+offset_bottom = 649.4595
+scale = Vector2(1.655, 1.655)
 ignore_texture_size = true
 stretch_mode = 5
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=249673158]
+stream = ExtResource("6_hgkq3")
+autoplay = true
+bus = &"Musica"
+parameters/looping = true
 
 [connection signal="pressed" from="Professor" to="." method="_on_professor_pressed"]
 [connection signal="pressed" from="Carimbador" to="." method="_on_carimbador_pressed"]

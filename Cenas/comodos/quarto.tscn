@@ -1,21 +1,19 @@
 [gd_scene format=3 uid="uid://co20ity6df3os"]
 
 [ext_resource type="Script" uid="uid://cxkafocwrn7ep" path="res://Scripts/quarto.gd" id="1_wynpe"]
-[ext_resource type="PackedScene" uid="uid://brigm5hyw1tkh" path="res://Cenas/sis_mapa.tscn" id="2_3u53u"]
+[ext_resource type="Texture2D" uid="uid://dxsmowb8pucdj" path="res://Imagens/cenarios/Quarto.png" id="2_7s1ph"]
+[ext_resource type="PackedScene" uid="uid://bbgw7tmu2cxgo" path="res://Cenas/dialogo.tscn" id="3_7s1ph"]
 
-[node name="Quarto" type="Node2D" unique_id=656631019 node_paths=PackedStringArray("mapa")]
+[node name="Quarto" type="Node2D" unique_id=656631019 node_paths=PackedStringArray("dialogo")]
 script = ExtResource("1_wynpe")
-mapa = NodePath("Control/SisMapa")
+dialogo = NodePath("Control/Dialogo")
 
-[node name="Label" type="Label" parent="." unique_id=1085216875]
-anchors_preset = 9
-anchor_bottom = 1.0
-offset_left = 569.0
-offset_top = 341.0
-offset_right = 625.0
-offset_bottom = 364.0
-grow_vertical = 2
-text = "Quarto"
+[node name="Quarto" type="TextureRect" parent="." unique_id=770785175]
+offset_right = 1932.5123
+offset_bottom = 1079.0
+texture = ExtResource("2_7s1ph")
+expand_mode = 1
+stretch_mode = 4
 
 [node name="Control" type="Control" parent="." unique_id=443117731]
 layout_mode = 3
@@ -23,5 +21,7 @@ anchors_preset = 0
 offset_right = 1153.0
 offset_bottom = 651.0
 
-[node name="SisMapa" parent="Control" unique_id=257959995 instance=ExtResource("2_3u53u")]
+[node name="Dialogo" parent="Control" unique_id=1920572738 instance=ExtResource("3_7s1ph")]
 layout_mode = 1
+offset_right = 772.20886
+offset_bottom = 436.0

@@ -1,0 +1,370 @@
+{
+	"maquinista" : {
+		"1" : {
+			"personagem" : "Maquinista",
+			"texto" : "Boa tarde.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "res://Sounds/voz_maquinista_1.mp3"
+		},
+		"2" : {
+			"personagem" : "Maquinista",
+			"texto" : "Ah, você que é o Inspetor Miau?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "nenhum"
+		},
+		"3" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : "...?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som" : "nenhum"
+		},
+		"4" : {
+			"personagem" : "Maquinista",
+			"texto" : "Eu sou o Maquinista. Você deveria saber disso, visto que eu te trouxe no meu trem.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "res://Sounds/voz_maquinista_1.mp3"
+		},
+		"5" : {
+			"personagem" : "Maquinista",
+			"texto" : "Onde ele está? Não posso te mostrar, porque ele está lá fora. E, mesmo se fossemos pra lá, ele não foi desenhado.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "nenhum"
+		},
+		"6" : {
+			"personagem" : "Maquinista",
+			"texto" : "Bom, eu sou um dos netos da Vovó, diria até que um de seus pupilos favoritos. Aprendi com a melhor de todas a carimbar os meus selos de viagem e as cartas que levo comigo em meu possante de ferro.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "nenhum"
+		},
+		"7" : {
+			"personagem" : "Maquinista",
+			"texto" : "(meu trem)",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "res://Sounds/voz_maquinista_1.mp3"
+		},
+		"8" : {
+			"personagem" : "Maquinista",
+			"texto" : "Mas, agora, terei de levar seu legado para frente, já que ALGUM destes INGRATOS a assassinou.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "nenhum"
+		},
+		"9" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : "...?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som" : "nenhum"
+		},
+		"10" : {
+			"personagem" : "Maquinista",
+			"texto" : "Epa, pera lá. Você tá achando que fui EU que cometi o crime?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "res://Sounds/voz_maquinista_1.mp3"
+		},
+		"11" : {
+			"personagem" : "Maquinista",
+			"texto" : "Isso é loucura, eu nem quero o Carimbo de Ouro dela, nem o seu testamento.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "nenhum"
+		},
+		"12" : {
+			"personagem" : "Maquinista",
+			"texto" : "Sabe, eu aprendi com a vida que os maiores prazeres são os menores. Então, eu sempre estou satisfeito com a brisa no meu pelo, o cheiro do carvão no meu nariz, e mais de 12 horas de sono.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "nenhum"
+		},
+		"13" : {
+			"personagem" : "Maquinista",
+			"texto" : "O ouro e essas coisas não são pra mim, acho que só um tolo pensaria nisso o tempo todo. Prefiro levar cartas, destinos para outros lugares.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "nenhum"
+		},
+		"14" : {
+			"personagem" : "Maquinista",
+			"texto" : "Mas, caso você queira saber, eu estava dormindo no horário do crime, porque ele foi feito de manhã. Viu? Não tem como eu ter feito. haha",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "res://Sounds/voz_maquinista_1.mp3"
+		},
+		"15" : {
+			"personagem" : "Maquinista",
+			"texto" : "Como assim “ficar acordado de dia”? Isso não existe.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "nenhum"
+		},
+		"16" : {
+			"personagem" : "Inspetor Miau",
+			"texto" : "...?",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som" : "nenhum"
+		},
+		"17" : {
+			"personagem" : "Maquinista",
+			"texto" : "Hmm… o que eu vi? Muitas coisas.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "res://Sounds/voz_maquinista_1.mp3"
+		},
+		"18" : {
+			"personagem" : "Maquinista",
+			"texto" : "Mas, se fosse pra destacar uma, estranhamente eu falaria de uma grande moeda de ouro que quase ficou presa no trilho do meu trem.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "nenhum"
+		},
+		"19" : {
+			"personagem" : "Maquinista",
+			"texto" : "Como já disse para você, não me importo com ouro e nem nada do tipo. Então pode ficar. Sinto que outra pessoa pode aproveitá-la melhor.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "nenhum"
+		},
+		"20" : {
+			"personagem" : "",
+			"texto" : "*Você recebeu moeda de ouro*",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/transparente.png",
+			"som" : "nenhum"
+		},
+		"21" : {
+			"personagem" : "Maquinista",
+			"texto" : "Ah, outra coisa. Eu acabei não carimbando pra autorizar a sua viagem, então deixe-me fazê-lo agora, por gentileza.",
+			"fundo" : "res://Imagens/sprites/transparente.png",
+			"sprite" : "res://Imagens/sprites/Maquinista_neutro.png",
+			"som" : "res://Sounds/voz_maquinista_1.mp3"
+		}
+	},
+	"pirata": {
+		"1": {
+			"personagem": "Pirata",
+			"texto": "Aaarggh…quem é você?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "res://Sounds/voz_pirata_1.mp3"
+		},
+		"2": {
+			"personagem": "Inspetor Miau",
+			"texto": "...?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som": "nenhum"
+		},
+		"3": {
+			"personagem": "Pirata",
+			"texto": "Não se faça de espertinho!! Eu perguntei primeiro.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"4": {
+			"personagem": "Inspetor Miau",
+			"texto": "...",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som": "nenhum"
+		},
+		"5": {
+			"personagem": "Pirata",
+			"texto": "Não vai responder, é? Vamo ficar aqui a noite inteirinha, então.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "res://Sounds/voz_pirata_1.mp3"
+		},
+		"6": {
+			"personagem": "Inspetor Miau",
+			"texto": "...",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som": "nenhum"
+		},
+		"7": {
+			"personagem": "Pirata",
+			"texto": "...",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"8": {
+			"personagem": "Pirata",
+			"texto": "TÁ BOM, tá bom. Eu sou o Pirata, o neto preferido da Vovó. Satisfeito? Você num vai acreditar qual é a minha profissão. Dentista kkkk AHAAHAHAAHHHAHAH",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "res://Sounds/voz_pirata_1.mp3"
+		},
+		"9": {
+			"personagem": "Pirata",
+			"texto": "Carimbo de Ouro? Vovó que me perdoe, meu filho, mas se tem uma palavra que eu me importo nessa frase é “de Ouro”. O restante eu simplesmente não me importo.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"10": {
+			"personagem": "Pirata",
+			"texto": "Ouro e essas coisas SÃO pra mim, acho que só um tolo NÃO pensaria nisso o tempo todo. Prefiro levar DINHEIRO, TESOUROS para outros lugares.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"11": {
+			"personagem": "Pirata",
+			"texto": "Infelizmente Vovó queria me criar de uma forma, mas o oceano me escolheu primeiro. E com ele veio os tesouros!! Uuuuuuuuuf, os tesoooouros…",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"12": {
+			"personagem": "Pirata",
+			"texto": "O que eu não daria agora pra comer alguns moluscos e velejar pelo mar até eu encontrar a borda da Terra de uma vez.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"13": {
+			"personagem": "Pirata",
+			"texto": "Até hoje eu não encontrei, por algum motivo.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "res://Sounds/voz_pirata_1.mp3"
+		},
+		"14": {
+			"personagem": "Inspetor Miau",
+			"texto": "...?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som": "nenhum"
+		},
+		"15": {
+			"personagem": "Pirata",
+			"texto": "Onde eu estava na hora do crime? Amigão, eu estava em alto mar!! Com minhas lindas sereias e sereios, minha tripulação cantando e contando as moedas que roubamos do navio que EXPLODIMOS!!!!!! AHAHAAHAHAAHAHA!!!",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "res://Sounds/voz_pirata_1.mp3"
+		},
+		"16": {
+			"personagem": "Pirata",
+			"texto": "Isso que é vida!! Quem que precisa daquele trabalho de emissário dos mortos? Levar os outros pro Outro Lado? HÁ! A única coisa que eu vou levar é o seu chapéu! Me dá ele aqui.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"17": {
+			"personagem": "",
+			"texto": "*Você perdeu o seu chapéu*",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/transparente.png",
+			"som": "nenhum"
+		},
+		"18": {
+			"personagem": "Pirata",
+			"texto": "Eita, não cabe, toma de volta.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "res://Sounds/voz_pirata_1.mp3"
+		},
+		"19": {
+			"personagem": "",
+			"texto": "*Você recuperou o seu chapéu*",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/transparente.png",
+			"som": "nenhum"
+		},
+		"20": {
+			"personagem": "Pirata",
+			"texto": "Só fico numa tristeza porque, logo antes de chegar aqui, eu perdi a minha moeda de ouro preferida do momento, eu ia usar ela agora mesmo, inclusive.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"21": {
+			"personagem": "Inspetor Miau",
+			"texto": "...?",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Sr_Miau_neutro.png",
+			"som": "nenhum"
+		},
+		"22": {
+			"personagem": "Pirata",
+			"texto": "O que eu vi? Ver? Eu não vejo, filho, eu sinto! E eu sinto o medo, a fome e um pouco da minha artrite crônica.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "res://Sounds/voz_pirata_1.mp3"
+		},
+		"23": {
+			"personagem": "Pirata",
+			"texto": "Mas, pra além disso, eu senti fome de poder e conhecimento exalando de um item específico… esse aqui que eu vo te dar.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"24": {
+			"personagem": "",
+			"texto": "*Você recebeu o Bloco de Queijo de Plástico*",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/transparente.png",
+			"som": "nenhum"
+		},
+		"25": {
+			"personagem": "Pirata",
+			"texto": "Isso certamente vai te ajudar… eu tenho certeza.. talvez te ajude com uma certa dupla na Sala de Jantar… só falando…",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "res://Sounds/voz_pirata_1.mp3"
+		},
+		"26": {
+			"personagem": "Pirata",
+			"texto": "O que é? Você ACHOU a minha moeda?? Pois me dê ela, meu filho!!",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"27": {
+			"personagem": "",
+			"texto": "*Você entregou a Moeda de Ouro*",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/transparente.png",
+			"som": "nenhum"
+		},
+		"28": {
+			"personagem": "Pirata",
+			"texto": "Muito obrigado!! Eu já tava ficando com fome.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		},
+		"29": {
+			"personagem": "",
+			"texto": "*Ele comeu a Moeda de Ouro*",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/transparente.png",
+			"som": "nenhum"
+		},
+		"30": {
+			"personagem": "Pirata",
+			"texto": "Hmm. 14 quilates...",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "res://Sounds/voz_pirata_1.mp3"
+		},
+		"31": {
+			"personagem": "Pirata",
+			"texto": "Vou te dar um presente final, um beijo especial do meu polvinho Johnny. Abre bem o caderno.",
+			"fundo": "res://Imagens/sprites/transparente.png",
+			"sprite": "res://Imagens/sprites/Pirata_neutro.png",
+			"som": "nenhum"
+		}
+	}
+}

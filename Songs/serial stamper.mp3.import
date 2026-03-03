@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5noefgxobg25"
+path="res://.godot/imported/serial stamper.mp3-ecbfe16b23b7b3ae75a622b05fe5ef7d.mp3str"
+
+[deps]
+
+source_file="res://Songs/serial stamper.mp3"
+dest_files=["res://.godot/imported/serial stamper.mp3-ecbfe16b23b7b3ae75a622b05fe5ef7d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

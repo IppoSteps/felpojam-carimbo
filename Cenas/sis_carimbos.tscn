@@ -2,17 +2,11 @@
 
 [ext_resource type="Script" uid="uid://d8wrwidygw5b" path="res://Scripts/sis_carimbos.gd" id="1_dqpuo"]
 [ext_resource type="Texture2D" uid="uid://bomqui2b0wyih" path="res://Imagens/caderno/Caderno base.png" id="2_gg4wj"]
+[ext_resource type="FontFile" uid="uid://cbgykwhcej8oa" path="res://Fonts/AmaticSC-Bold.ttf" id="3_dqpuo"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_gg4wj"]
-font_color = Color(0, 0, 0, 1)
-
-[sub_resource type="LabelSettings" id="LabelSettings_dqpuo"]
-font_color = Color(0, 0, 0, 1)
-
-[sub_resource type="LabelSettings" id="LabelSettings_vbgcf"]
-font_color = Color(0, 0, 0, 1)
-
-[sub_resource type="LabelSettings" id="LabelSettings_o1a3f"]
+font = ExtResource("3_dqpuo")
+font_size = 35
 font_color = Color(0, 0, 0, 1)
 
 [node name="sis_carimbos" type="Control" unique_id=232167546 node_paths=PackedStringArray("caderno")]
@@ -40,79 +34,167 @@ stretch_mode = 5
 [node name="Carimbo1" type="TextureRect" parent="Caderno" unique_id=638720077 groups=["carimbo_slots"]]
 visible = false
 layout_mode = 0
-offset_left = 576.0
-offset_top = 109.0
-offset_right = 676.0
-offset_bottom = 209.0
+offset_left = 371.0
+offset_top = 171.0
+offset_right = 526.0
+offset_bottom = 326.0
 expand_mode = 1
 
 [node name="Texto1" type="Label" parent="Caderno" unique_id=2104257325 groups=["texto_slots"]]
 visible = false
 layout_mode = 0
-offset_left = 680.0
-offset_top = 109.0
-offset_right = 920.0
-offset_bottom = 209.0
+offset_left = 526.0
+offset_top = 171.0
+offset_right = 908.0
+offset_bottom = 326.0
+text = "placeholder sdjfiashdfuhasdufhasudifh"
 label_settings = SubResource("LabelSettings_gg4wj")
 vertical_alignment = 1
 autowrap_mode = 2
 
-[node name="Carimbo2" type="TextureRect" parent="Caderno" unique_id=18694310 groups=["carimbo_slots"]]
+[node name="Carimbo2" type="TextureRect" parent="Caderno" unique_id=615576489 groups=["carimbo_slots"]]
 visible = false
 layout_mode = 0
-offset_left = 575.0
-offset_top = 235.0
-offset_right = 675.0
-offset_bottom = 335.0
+offset_left = 371.0
+offset_top = 366.0
+offset_right = 526.0
+offset_bottom = 521.0
 expand_mode = 1
 
-[node name="Texto2" type="Label" parent="Caderno" unique_id=1374642855 groups=["texto_slots"]]
+[node name="Texto2" type="Label" parent="Caderno" unique_id=43833451 groups=["texto_slots"]]
 visible = false
 layout_mode = 0
-offset_left = 681.0
-offset_top = 235.0
-offset_right = 921.0
-offset_bottom = 335.0
-label_settings = SubResource("LabelSettings_dqpuo")
+offset_left = 526.0
+offset_top = 366.0
+offset_right = 908.0
+offset_bottom = 521.0
+text = "placeholder sdjfiashdfuhasdufhasudifh"
+label_settings = SubResource("LabelSettings_gg4wj")
 vertical_alignment = 1
 autowrap_mode = 2
 
-[node name="Carimbo3" type="TextureRect" parent="Caderno" unique_id=500079703 groups=["carimbo_slots"]]
+[node name="Carimbo3" type="TextureRect" parent="Caderno" unique_id=389815 groups=["carimbo_slots"]]
 visible = false
 layout_mode = 0
-offset_left = 583.0
-offset_top = 319.0
-offset_right = 683.0
-offset_bottom = 419.0
+offset_left = 371.0
+offset_top = 557.0
+offset_right = 526.0
+offset_bottom = 712.0
 expand_mode = 1
 
-[node name="Texto3" type="Label" parent="Caderno" unique_id=1321727262 groups=["texto_slots"]]
+[node name="Texto3" type="Label" parent="Caderno" unique_id=452053629 groups=["texto_slots"]]
 visible = false
 layout_mode = 0
-offset_left = 680.0
-offset_top = 319.0
-offset_right = 920.0
-offset_bottom = 419.0
-label_settings = SubResource("LabelSettings_vbgcf")
+offset_left = 526.0
+offset_top = 557.0
+offset_right = 908.0
+offset_bottom = 712.0
+text = "placeholder sdjfiashdfuhasdufhasudifh"
+label_settings = SubResource("LabelSettings_gg4wj")
 vertical_alignment = 1
 autowrap_mode = 2
 
-[node name="Carimbo4" type="TextureRect" parent="Caderno" unique_id=718411931 groups=["carimbo_slots"]]
+[node name="Carimbo4" type="TextureRect" parent="Caderno" unique_id=1546237138 groups=["carimbo_slots"]]
 visible = false
 layout_mode = 0
-offset_left = 582.0
-offset_top = 445.0
-offset_right = 682.0
-offset_bottom = 545.0
+offset_left = 371.0
+offset_top = 754.0
+offset_right = 526.0
+offset_bottom = 909.0
 expand_mode = 1
 
-[node name="Texto4" type="Label" parent="Caderno" unique_id=1114200741 groups=["texto_slots"]]
+[node name="Texto4" type="Label" parent="Caderno" unique_id=1066663692 groups=["texto_slots"]]
 visible = false
 layout_mode = 0
-offset_left = 680.0
-offset_top = 445.0
-offset_right = 920.0
-offset_bottom = 545.0
-label_settings = SubResource("LabelSettings_o1a3f")
+offset_left = 526.0
+offset_top = 754.0
+offset_right = 908.0
+offset_bottom = 909.0
+text = "placeholder sdjfiashdfuhasdufhasudifh"
+label_settings = SubResource("LabelSettings_gg4wj")
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Carimbo5" type="TextureRect" parent="Caderno" unique_id=2142200696 groups=["carimbo_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 976.0
+offset_top = 171.0
+offset_right = 1131.0
+offset_bottom = 326.0
+expand_mode = 1
+
+[node name="Texto5" type="Label" parent="Caderno" unique_id=177760511 groups=["texto_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 1131.0
+offset_top = 171.0
+offset_right = 1513.0
+offset_bottom = 326.0
+text = "placeholder sdjfiashdfuhasdufhasudifh"
+label_settings = SubResource("LabelSettings_gg4wj")
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Carimbo6" type="TextureRect" parent="Caderno" unique_id=134365246 groups=["carimbo_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 976.0
+offset_top = 366.0
+offset_right = 1131.0
+offset_bottom = 521.0
+expand_mode = 1
+
+[node name="Texto6" type="Label" parent="Caderno" unique_id=307217680 groups=["texto_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 1131.0
+offset_top = 366.0
+offset_right = 1513.0
+offset_bottom = 521.0
+text = "placeholder sdjfiashdfuhasdufhasudifh"
+label_settings = SubResource("LabelSettings_gg4wj")
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Carimbo7" type="TextureRect" parent="Caderno" unique_id=152545211 groups=["carimbo_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 976.0
+offset_top = 557.0
+offset_right = 1131.0
+offset_bottom = 712.0
+expand_mode = 1
+
+[node name="Texto7" type="Label" parent="Caderno" unique_id=198471753 groups=["texto_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 1131.0
+offset_top = 557.0
+offset_right = 1513.0
+offset_bottom = 712.0
+text = "placeholder sdjfiashdfuhasdufhasudifh"
+label_settings = SubResource("LabelSettings_gg4wj")
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Carimbo8" type="TextureRect" parent="Caderno" unique_id=2070525698 groups=["carimbo_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 976.0
+offset_top = 754.0
+offset_right = 1131.0
+offset_bottom = 909.0
+expand_mode = 1
+
+[node name="Texto8" type="Label" parent="Caderno" unique_id=1313885766 groups=["texto_slots"]]
+visible = false
+layout_mode = 0
+offset_left = 1131.0
+offset_top = 754.0
+offset_right = 1513.0
+offset_bottom = 909.0
+text = "placeholder sdjfiashdfuhasdufhasudifh"
+label_settings = SubResource("LabelSettings_gg4wj")
 vertical_alignment = 1
 autowrap_mode = 2
